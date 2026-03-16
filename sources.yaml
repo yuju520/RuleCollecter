@@ -1,0 +1,707 @@
+# ==================== 全局黑名单 (Rejects) ====================
+rejects:
+  - name: "My-Blacklist"
+    url: "https://github.com/yuju520/ACL4SSR/raw/refs/heads/main/blacklist.list"
+    enabled: true
+
+# ==================== 分类配置 ====================
+categories:
+  diy_direct:
+    name: "DIY-Custom-Direct"
+    output_file: "diy-direct"
+    description: "🖐🏻 用户自定义直连规则"
+  diy_proxy:
+    name: "DIY-Custom-Proxy"
+    output_file: "diy-proxy"
+    description: "🖐🏻 用户自定义代理规则"
+  private:
+    name: "Private-Network"
+    output_file: "private"
+    description: "🏠 局域网和私有IP"
+  cn_services:
+    name: "China-Services"
+    output_file: "cn_services"
+    description: "🔒 国内网站、服务和IP"
+  foreign:
+    name: "Foreign-Services"
+    output_file: "foreign"
+    description: "🌍 国外网站、服务和IP"
+  ai:
+    name: "AI"
+    output_file: "ai"
+    description: "🤖 ChatGPT、Claude、Gemini、Copilot 等"
+  youtube:
+    name: "YouTube"
+    output_file: "youtube"
+    description: "📹 YouTube 视频、Music、TV"
+  google:
+    name: "Google"
+    output_file: "google"
+    description: "🔍 Google 搜索、Gmail、Drive 等"
+  microsoft:
+    name: "Microsoft"
+    output_file: "microsoft"
+    description: "Ⓜ️ Microsoft 365、Azure、OneDrive 等"
+  apple:
+    name: "Apple"
+    output_file: "apple"
+    description: "🍏 iCloud、App Store、Apple Music 等"
+  telegram:
+    name: "Telegram"
+    output_file: "telegram"
+    description: "📲 Telegram 消息和通话"
+  x:
+    name: "X"
+    output_file: "x"
+    description: "🐦 Twitter/X 社交平台"
+  meta:
+    name: "Meta"
+    output_file: "meta"
+    description: "📘 Facebook、Instagram、WhatsApp"
+  foreign_streaming:
+    name: "Foreign-Streaming"
+    output_file: "foreign-streaming"
+    description: "📺 国外流媒体"
+  steam:
+    name: "Steam"
+    output_file: "steam"
+    description: "🎮 Steam 游戏平台"
+  steam_cn:
+    name: "Steam-CN"
+    output_file: "steam-cn"
+    description: "🎮 Steam 游戏平台直连"
+  game:
+    name: "Game"
+    output_file: "game"
+    description: "🖥️ Epic、EA、Ubisoft 等"
+  game_cn:
+    name: "Game-CN"
+    output_file: "game-cn"
+    description: "🖥️ 直连的游戏"
+  game_console:
+    name: "Game-Console"
+    output_file: "game-console"
+    description: "🎯 PlayStation、Xbox、Nintendo"
+  github:
+    name: "GitHub"
+    output_file: "github"
+    description: "🐱 GitHub、GitLab 等"
+  cloud_services:
+    name: "Cloud-Services"
+    output_file: "cloud-services"
+    description: "☁️ AWS、Azure、Cloudflare 等"
+  dev_tools:
+    name: "Dev-Tools"
+    output_file: "dev-tools"
+    description: "🛠️ Docker、npm、JetBrains 等"
+  payment:
+    name: "Payment"
+    output_file: "payment"
+    description: "💳 PayPal、Stripe 等"
+  crypto:
+    name: "Crypto"
+    output_file: "crypto"
+    description: "₿ Binance 等"
+  adult:
+    name: "Adult"
+    output_file: "adult"
+    description: "🔞 成人内容过滤"
+  speedtest:
+    name: "SpeedTest"
+    output_file: "speedtest"
+    description: "📡 Speedtest 等测速服务"
+
+# ==================== 规则源配置 ====================
+sources:
+  # ===== DIY规则 =====
+  - name: "DIY-MyDirect"
+    category: "diy_direct"
+    url: "https://github.com/yuju520/ACL4SSR/raw/refs/heads/main/MyDirect.list"
+    type: "list"
+    enabled: true
+  - name: "DIY-MyProxy"
+    category: "diy_proxy"
+    url: "https://github.com/yuju520/ACL4SSR/raw/refs/heads/main/MyProxy.list"
+    type: "list"
+    enabled: true
+
+  # ===== 私有网络 =====
+  - name: "Blackmatrix-Lan"
+    category: "private"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Lan/Lan.list"
+    type: "list"
+    enabled: true
+
+  # ===== 国内服务 =====
+  - name: "WeChat"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/WeChat/WeChat.list"
+    type: "list"
+    enabled: true
+  - name: "Tencent"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Tencent/Tencent.list"
+    type: "list"
+    enabled: true
+  - name: "Alibaba"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Alibaba/Alibaba.list"
+    type: "list"
+    enabled: true
+  - name: "AliPay"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AliPay/AliPay.list"
+    type: "list"
+    enabled: true
+  - name: "ByteDance"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ByteDance/ByteDance.list"
+    type: "list"
+    enabled: true
+  - name: "DouYin"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/DouYin/DouYin.list"
+    type: "list"
+    enabled: true
+  - name: "BiliBili"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/BiliBili/BiliBili.list"
+    type: "list"
+    enabled: true
+  - name: "Baidu"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Baidu/Baidu.list"
+    type: "list"
+    enabled: true
+  - name: "NetEase"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/NetEase/NetEase.list"
+    type: "list"
+    enabled: true
+  - name: "XiaoHongShu"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/XiaoHongShu/XiaoHongShu.list"
+    type: "list"
+    enabled: true
+  - name: "Zhihu"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Zhihu/Zhihu.list"
+    type: "list"
+    enabled: true
+  - name: "Weibo"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Weibo/Weibo.list"
+    type: "list"
+    enabled: true
+  - name: "Pinduoduo"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Pinduoduo/Pinduoduo.list"
+    type: "list"
+    enabled: true
+  - name: "MeiTuan"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/MeiTuan/MeiTuan.list"
+    type: "list"
+    enabled: true
+  - name: "XianYu"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/XianYu/XianYu.list"
+    type: "list"
+    enabled: true
+  - name: "XieCheng"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/XieCheng/XieCheng.list"
+    type: "list"
+    enabled: true
+  - name: "Keep"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Keep/Keep.list"
+    type: "list"
+    enabled: true
+  - name: "GaoDe"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/GaoDe/GaoDe.list"
+    type: "list"
+    enabled: true
+  - name: "DouBan"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/DouBan/DouBan.list"
+    type: "list"
+    enabled: true
+  - name: "NGA"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/NGA/NGA.list"
+    type: "list"
+    enabled: true
+  - name: "Hupu"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Hupu/Hupu.list"
+    type: "list"
+    enabled: true
+  - name: "115"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/115/115.list"
+    type: "list"
+    enabled: true
+  - name: "Kingsoft"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Kingsoft/Kingsoft.list"
+    type: "list"
+    enabled: true
+  - name: "ChinaMobile"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ChinaMobile/ChinaMobile.list"
+    type: "list"
+    enabled: true
+  - name: "ChinaUnicom"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ChinaUnicom/ChinaUnicom.list"
+    type: "list"
+    enabled: true
+  - name: "ChinaTelecom"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ChinaTelecom/ChinaTelecom.list"
+    type: "list"
+    enabled: true
+  - name: "ChinaMedia"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ChinaMedia/ChinaMedia.list"
+    type: "list"
+    enabled: true
+  - name: "Direct"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Direct/Direct.list"
+    type: "list"
+    enabled: true
+  - name: "China"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/China/China.list"
+    type: "list"
+    enabled: true
+  - name: "ASN-China"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+    type: "list"
+    enabled: true
+  - name: "ChinaIPsBGP"
+    category: "cn_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/ChinaIPsBGP/ChinaIPsBGP.list"
+    type: "list"
+    enabled: true
+
+  # ===== AI 服务 =====
+  - name: "QuixoticHeart-AI"
+    category: "ai"
+    url: "https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/ai.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Bard"
+    category: "ai"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Bard/Bard.list"
+    type: "list"
+    enabled: false  # 已合并到 Gemini
+  - name: "Blackmatrix-Gemini"
+    category: "ai"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Gemini/Gemini.list"
+    type: "list"
+    enabled: true
+
+  # ===== YouTube =====
+  - name: "Blackmatrix-YouTube"
+    category: "youtube"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/YouTube/YouTube.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-YouTubeMusic"
+    category: "youtube"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/YouTubeMusic/YouTubeMusic.list"
+    type: "list"
+    enabled: true
+  # ===== Google 服务 =====
+  - name: "Blackmatrix-Google"
+    category: "google"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Google/Google.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-GoogleDrive"
+    category: "google"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/GoogleDrive/GoogleDrive.list"
+    type: "list"
+    enabled: true
+
+  # ===== 微软服务 =====
+  - name: "Blackmatrix-OneDrive"
+    category: "microsoft"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/OneDrive/OneDrive.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Microsoft"
+    category: "microsoft"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Microsoft/Microsoft.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Teams"
+    category: "microsoft"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Teams/Teams.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Office365"
+    category: "microsoft"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Office365/Office365.list"
+    type: "list"
+    enabled: false  # 已合并到 Microsoft
+
+  # ===== 苹果服务 =====
+  - name: "Blackmatrix-AppStore"
+    category: "apple"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppStore/AppStore.list"
+    type: "list"
+    enabled: true
+  - name: "QuixoticHeart-AppleCN"
+    category: "apple"
+    url: "https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/apple-cn.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Apple"
+    category: "apple"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Apple/Apple.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-iCloud"
+    category: "apple"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/iCloud/iCloud.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-AppleMusic"
+    category: "apple"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleMusic/AppleMusic.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-AppleTV"
+    category: "apple"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AppleTV/AppleTV.list"
+    type: "list"
+    enabled: true
+
+  # ===== Telegram =====
+  - name: "Blackmatrix-Telegram"
+    category: "telegram"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Telegram/Telegram.list"
+    type: "list"
+    enabled: true
+
+  # ===== Twitter/X =====
+  - name: "Blackmatrix-Twitter"
+    category: "x"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Twitter/Twitter.list"
+    type: "list"
+    enabled: true
+
+  # ===== Meta 系 =====
+  - name: "Blackmatrix-Instagram"
+    category: "meta"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Instagram/Instagram.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Facebook"
+    category: "meta"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Facebook/Facebook.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-WhatsApp"
+    category: "meta"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/WhatsApp/WhatsApp.list"
+    type: "list"
+    enabled: false  # 上游已移除，规则已包含在 Facebook 中
+  # ===== 国外综合 =====
+  - name: "Blackmatrix-Discord"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Discord/Discord.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-TikTok"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/TikTok/TikTok.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Reddit"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Reddit/Reddit.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Line"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Line/Line.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-LinkedIn"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/LinkedIn/LinkedIn.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Snapchat"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Snapchat/Snapchat.list"
+    type: "list"
+    enabled: false  # 上游已移除
+  - name: "Blackmatrix-Pinterest"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Pinterest/Pinterest.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Tumblr"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Tumblr/Tumblr.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Dropbox"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Dropbox/Dropbox.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Notion"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Notion/Notion.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Global"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Global/Global.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Proxy"
+    category: "foreign"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Proxy/Proxy.list"
+    type: "list"
+    enabled: true
+
+  # ===== 国外流媒体 =====
+  - name: "Blackmatrix-Netflix"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Netflix/Netflix.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Disney"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Disney/Disney.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-GlobalMedia"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/GlobalMedia/GlobalMedia.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Spotify"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Spotify/Spotify.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-HBO"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/HBO/HBO.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Hulu"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Hulu/Hulu.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-PrimeVideo"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/PrimeVideo/PrimeVideo.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Twitch"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Twitch/Twitch.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Bahamut"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Bahamut/Bahamut.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-BilibiliIntl"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/BilibiliIntl/BilibiliIntl.list"
+    type: "list"
+    enabled: false  # 上游已移除
+  - name: "Blackmatrix-Niconico"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Niconico/Niconico.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-AbemaTV"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AbemaTV/AbemaTV.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-KKTV"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/KKTV/KKTV.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-LineTV"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/LineTV/LineTV.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Viu"
+    category: "foreign_streaming"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Viu/Viu.list"
+    type: "list"
+    enabled: false  # 上游已移除
+
+  # ===== Steam =====
+  - name: "Blackmatrix-Steam"
+    category: "steam"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Steam/Steam.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-SteamCN"
+    category: "steam"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/SteamCN/SteamCN.list"
+    type: "list"
+    enabled: true
+  - name: "QuixoticHeart-GamesCN"
+    category: "steam"
+    url: "https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/games-cn.list"
+    type: "list"
+    enabled: true
+  # ===== PC 游戏 =====
+  - name: "Blackmatrix-Game"
+    category: "game"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Game/Game.list"
+    type: "list"
+    enabled: true
+  - name: "QuixoticHeart-Games"
+    category: "game"
+    url: "https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/surge/games.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Epic"
+    category: "game"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Epic/Epic.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-EA"
+    category: "game"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/EA/EA.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Ubisoft"
+    category: "game"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Ubisoft/Ubisoft.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Blizzard"
+    category: "game"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Blizzard/Blizzard.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Riot"
+    category: "game"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Riot/Riot.list"
+    type: "list"
+    enabled: true
+
+  # ===== 主机游戏 =====
+  - name: "Blackmatrix-PlayStation"
+    category: "game_console"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/PlayStation/PlayStation.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Xbox"
+    category: "game_console"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Xbox/Xbox.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Nintendo"
+    category: "game_console"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Nintendo/Nintendo.list"
+    type: "list"
+    enabled: true
+
+  # ===== 代码托管 =====
+  - name: "Blackmatrix-GitHub"
+    category: "github"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/GitHub/GitHub.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-GitLab"
+    category: "github"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/GitLab/GitLab.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Atlassian"
+    category: "github"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Atlassian/Atlassian.list"
+    type: "list"
+    enabled: true
+
+  # ===== 云服务 =====
+  - name: "Blackmatrix-Cloudflare"
+    category: "cloud_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Cloudflare/Cloudflare.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-AWS"
+    category: "cloud_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/AWS/AWS.list"
+    type: "list"
+    enabled: false  # 上游已移除
+  - name: "Blackmatrix-Azure"
+    category: "cloud_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Azure/Azure.list"
+    type: "list"
+    enabled: false  # 上游已移除，规则已包含在 Microsoft 中
+  - name: "Blackmatrix-GoogleCloud"
+    category: "cloud_services"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/GoogleCloud/GoogleCloud.list"
+    type: "list"
+    enabled: false  # 上游已移除，规则已包含在 Google 中
+
+  # ===== 开发工具 =====
+  - name: "Blackmatrix-Docker"
+    category: "dev_tools"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Docker/Docker.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-StackOverflow"
+    category: "dev_tools"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/StackOverflow/StackOverflow.list"
+    type: "list"
+    enabled: false  # 上游已移除
+
+  # ===== 支付平台 =====
+  - name: "Blackmatrix-PayPal"
+    category: "payment"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/PayPal/PayPal.list"
+    type: "list"
+    enabled: true
+
+  # ===== 加密货币 =====
+  - name: "Blackmatrix-Binance"
+    category: "crypto"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Binance/Binance.list"
+    type: "list"
+    enabled: true
+  - name: "Blackmatrix-Coinbase"
+    category: "crypto"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Coinbase/Coinbase.list"
+    type: "list"
+    enabled: false  # 上游已移除
+
+  # ===== 成人内容 =====
+  - name: "Blackmatrix-Porn"
+    category: "adult"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Porn/Porn.list"
+    type: "list"
+    enabled: false  # 上游已移除
+
+  # ===== 测速平台 =====
+  - name: "Blackmatrix-Speedtest"
+    category: "speedtest"
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Speedtest/Speedtest.list"
+    type: "list"
+    enabled: true
