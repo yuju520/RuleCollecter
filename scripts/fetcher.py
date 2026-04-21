@@ -3,16 +3,18 @@
 import logging
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 import requests
 
 logger = logging.getLogger(__name__)
 
-MAX_WORKERS = 5
-TIMEOUT = 30
-MAX_RETRIES = 3
-RETRY_DELAY = 10
+MAX_WORKERS = 10
+CONNECT_TIMEOUT = 10   # seconds to establish TCP connection
+READ_TIMEOUT = 30      # seconds between received chunks (not total)
+TOTAL_TIMEOUT = 90     # hard cap on total download time per source
+MAX_RETRIES = 2
+RETRY_DELAY = 5
 
 
 @dataclass
@@ -28,8 +30,35 @@ class FetchResult:
 
 
 def _is_retryable(status_code: int) -> bool:
-    """Check if HTTP status code warrants a retry."""
     return status_code >= 500
+
+
+def _download_with_total_timeout(url: str) -> str:
+    """Download URL content with a hard total-time cap.
+
+    requests timeout= only resets on each received chunk, so a slow-but-steady
+    server (e.g. GitHub CDN under load) can hold a connection open for minutes.
+    Using stream=True + elapsed tracking enforces a true wall-clock deadline.
+    """
+    deadline = time.monotonic() + TOTAL_TIMEOUT
+    resp = requests.get(
+        url,
+        timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
+        stream=True,
+    )
+    resp.raise_for_status()
+
+    chunks = []
+    for chunk in resp.iter_content(chunk_size=65536):
+        if time.monotonic() > deadline:
+            resp.close()
+            raise requests.Timeout(
+                f"Total download exceeded {TOTAL_TIMEOUT}s"
+            )
+        if chunk:
+            chunks.append(chunk)
+
+    return b"".join(chunks).decode("utf-8", errors="replace")
 
 
 def _fetch_one(source: dict) -> FetchResult:
@@ -39,7 +68,6 @@ def _fetch_one(source: dict) -> FetchResult:
     category = source.get("category", "")
     result = FetchResult(name=name, category=category, url=url)
 
-    # Support local file path
     if source.get("path"):
         try:
             with open(source["path"], "r", encoding="utf-8") as f:
@@ -57,38 +85,31 @@ def _fetch_one(source: dict) -> FetchResult:
 
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            resp = requests.get(url, timeout=TIMEOUT)
-            if resp.status_code == 200:
-                result.content = resp.text
-                result.success = True
-                logger.info(f"[{name}] Downloaded successfully ({len(resp.text)} bytes)")
-                return result
+            text = _download_with_total_timeout(url)
+            result.content = text
+            result.success = True
+            logger.info(f"[{name}] Downloaded successfully ({len(text)} bytes)")
+            return result
 
-            # Client error (4xx) - don't retry
-            if 400 <= resp.status_code < 500:
-                result.error = f"HTTP {resp.status_code}"
-                logger.error(f"[{name}] Client error {resp.status_code}, not retrying")
+        except requests.HTTPError as e:
+            status = e.response.status_code if e.response is not None else 0
+            if 400 <= status < 500:
+                result.error = f"HTTP {status}"
+                logger.error(f"[{name}] Client error {status}, not retrying")
                 return result
-
-            # Server error (5xx) - retry
-            if _is_retryable(resp.status_code):
-                logger.warning(
-                    f"[{name}] Server error {resp.status_code}, "
-                    f"attempt {attempt}/{MAX_RETRIES}"
-                )
-                if attempt < MAX_RETRIES:
-                    time.sleep(RETRY_DELAY)
-                else:
-                    result.error = f"HTTP {resp.status_code} after {MAX_RETRIES} retries"
+            logger.warning(f"[{name}] Server error {status}, attempt {attempt}/{MAX_RETRIES}")
+            if attempt < MAX_RETRIES:
+                time.sleep(RETRY_DELAY)
+            else:
+                result.error = f"HTTP {status} after {MAX_RETRIES} retries"
 
         except (requests.ConnectionError, requests.Timeout) as e:
-            logger.warning(
-                f"[{name}] Network error: {e}, attempt {attempt}/{MAX_RETRIES}"
-            )
+            logger.warning(f"[{name}] Network error: {e}, attempt {attempt}/{MAX_RETRIES}")
             if attempt < MAX_RETRIES:
                 time.sleep(RETRY_DELAY)
             else:
                 result.error = f"{type(e).__name__} after {MAX_RETRIES} retries"
+
         except Exception as e:
             result.error = str(e)
             logger.error(f"[{name}] Unexpected error: {e}")
@@ -98,14 +119,7 @@ def _fetch_one(source: dict) -> FetchResult:
 
 
 def fetch_all(sources: list[dict]) -> list[FetchResult]:
-    """Fetch all sources concurrently.
-
-    Args:
-        sources: List of source dicts with keys: name, url, category, type, enabled
-
-    Returns:
-        List of FetchResult objects.
-    """
+    """Fetch all sources concurrently."""
     enabled = [s for s in sources if s.get("enabled", True)]
     results = []
 
