@@ -38,15 +38,27 @@ jobs:
         run: |
           pip install -r scripts/requirements.txt
 
+      - name: Cache mihomo binary
+        id: cache-mihomo
+        uses: actions/cache@v4
+        with:
+          path: /usr/local/bin/mihomo
+          key: mihomo-v1.19.20-linux-amd64
+
       - name: Setup mihomo
-        timeout-minutes: 5
+        if: steps.cache-mihomo.outputs.cache-hit != 'true'
+        timeout-minutes: 10
         run: |
-          MIHOMO_URL="https://github.com/MetaCubeX/mihomo/releases/download/v1.19.20/mihomo-linux-amd64-v1.19.20.gz"
-          wget --timeout=30 --tries=3 --waitretry=10 -O mihomo.gz "$MIHOMO_URL"
+          MIHOMO_VERSION="v1.19.20"
+          MIHOMO_URL="https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/mihomo-linux-amd64-${MIHOMO_VERSION}.gz"
+          curl -fL --connect-timeout 30 --max-time 300 --retry 5 --retry-delay 15 --retry-connrefused \
+            -o mihomo.gz "$MIHOMO_URL"
           gunzip mihomo.gz
           chmod +x mihomo
           sudo mv mihomo /usr/local/bin/
-          mihomo version
+
+      - name: Verify mihomo
+        run: mihomo version
 
       - name: Run update script
         env:
