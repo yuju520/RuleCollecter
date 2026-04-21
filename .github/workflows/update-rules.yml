@@ -50,7 +50,7 @@ jobs:
           gunzip mihomo.gz
           chmod +x mihomo
           sudo mv mihomo /usr/local/bin/mihomo
-          mihomo version
+          mihomo -v
 
       - name: Run update script
         timeout-minutes: 20
