@@ -38,36 +38,29 @@ jobs:
         run: |
           pip install -r scripts/requirements.txt
 
-      - name: Cache mihomo binary
-        id: cache-mihomo
-        uses: actions/cache@v4
-        with:
-          path: /usr/local/bin/mihomo
-          key: mihomo-v1.19.20-linux-amd64
-
       - name: Setup mihomo
-        if: steps.cache-mihomo.outputs.cache-hit != 'true'
         timeout-minutes: 10
         run: |
           MIHOMO_VERSION="v1.19.20"
-          MIHOMO_URL="https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/mihomo-linux-amd64-${MIHOMO_VERSION}.gz"
-          curl -fL --connect-timeout 30 --max-time 300 --retry 5 --retry-delay 15 --retry-connrefused \
+          MIHOMO_FILENAME="mihomo-linux-amd64-${MIHOMO_VERSION}.gz"
+          MIHOMO_URL="https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/${MIHOMO_FILENAME}"
+          echo "Downloading mihomo from GitHub releases..."
+          curl -fL --connect-timeout 15 --max-time 300 --retry 3 --retry-delay 10 \
             -o mihomo.gz "$MIHOMO_URL"
           gunzip mihomo.gz
           chmod +x mihomo
-          sudo mv mihomo /usr/local/bin/
-
-      - name: Verify mihomo
-        run: mihomo version
+          sudo mv mihomo /usr/local/bin/mihomo
+          mihomo version
 
       - name: Run update script
-        timeout-minutes: 15
+        timeout-minutes: 20
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/main.py
 
       - name: Commit and Push Changes
+        timeout-minutes: 5
         run: |
           git add rules/ README.md reports/ || true
           if [ -n "$(git status --porcelain)" ]; then

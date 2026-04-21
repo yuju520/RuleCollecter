@@ -11,10 +11,10 @@ logger = logging.getLogger(__name__)
 
 MAX_WORKERS = 10
 CONNECT_TIMEOUT = 10   # seconds to establish TCP connection
-READ_TIMEOUT = 30      # seconds between received chunks (not total)
-TOTAL_TIMEOUT = 90     # hard cap on total download time per source
+READ_TIMEOUT = 20      # seconds between received chunks (not total)
+TOTAL_TIMEOUT = 60     # hard cap on total download time per source
 MAX_RETRIES = 2
-RETRY_DELAY = 5
+RETRY_DELAY = 3
 
 
 @dataclass
