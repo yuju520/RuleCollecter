@@ -169,6 +169,7 @@ DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net
 DOMAIN-SUFFIX,cdp.cloud.unity3d.com
 DOMAIN-SUFFIX,championshipseriesleague.com
 DOMAIN-SUFFIX,chillingo.com
+DOMAIN-SUFFIX,chunkbase.com
 DOMAIN-SUFFIX,clash.com
 DOMAIN-SUFFIX,clashmini.com
 DOMAIN-SUFFIX,clashofclans.com
@@ -285,6 +286,7 @@ DOMAIN-SUFFIX,flightsimulator.com
 DOMAIN-SUFFIX,flipnotestudio.com
 DOMAIN-SUFFIX,fnjiasu.com
 DOMAIN-SUFFIX,forgecdn.net
+DOMAIN-SUFFIX,fortnite-vod.akamaized.net
 DOMAIN-SUFFIX,fortnite.com
 DOMAIN-SUFFIX,forza.net
 DOMAIN-SUFFIX,forzamotorsport.net
@@ -301,6 +303,7 @@ DOMAIN-SUFFIX,game.maj-soul.com
 DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
 DOMAIN-SUFFIX,gamepass.com
 DOMAIN-SUFFIX,gamesfirsthelsinki.com
+DOMAIN-SUFFIX,gangwan.com
 DOMAIN-SUFFIX,garena.co.id
 DOMAIN-SUFFIX,garena.co.th
 DOMAIN-SUFFIX,garena.com
@@ -356,8 +359,6 @@ DOMAIN-SUFFIX,humancoexperience.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,hutpromos.com
 DOMAIN-SUFFIX,hyprsense.com
-DOMAIN-SUFFIX,illusion.co.jp
-DOMAIN-SUFFIX,illusion.jp
 DOMAIN-SUFFIX,industrialtoys.com
 DOMAIN-SUFFIX,instituteofwar.org
 DOMAIN-SUFFIX,itch.io
@@ -393,6 +394,7 @@ DOMAIN-SUFFIX,legendofzelda.cn
 DOMAIN-SUFFIX,legendofzelda.com.cn
 DOMAIN-SUFFIX,leigod.cn
 DOMAIN-SUFFIX,leigod.com
+DOMAIN-SUFFIX,leigodjsq.com
 DOMAIN-SUFFIX,liuxing.com
 DOMAIN-SUFFIX,lol-europe.com
 DOMAIN-SUFFIX,lolclub.org
@@ -409,6 +411,7 @@ DOMAIN-SUFFIX,lorhf.com
 DOMAIN-SUFFIX,loverslab.com
 DOMAIN-SUFFIX,lowiro.com
 DOMAIN-SUFFIX,lpl.com.cn
+DOMAIN-SUFFIX,ls66.cn
 DOMAIN-SUFFIX,lxjiasu.com
 DOMAIN-SUFFIX,maddenchampionship.com
 DOMAIN-SUFFIX,maddenrewards.com
@@ -426,6 +429,7 @@ DOMAIN-SUFFIX,mariokart8.com
 DOMAIN-SUFFIX,mariosupersluggers.com
 DOMAIN-SUFFIX,masseffect.com
 DOMAIN-SUFFIX,masseffectarchives.com
+DOMAIN-SUFFIX,masteroforion.com
 DOMAIN-SUFFIX,maxis.com
 DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
 DOMAIN-SUFFIX,miitomo.com
@@ -434,6 +438,7 @@ DOMAIN-SUFFIX,miiverse.com
 DOMAIN-SUFFIX,minecraft-services.net
 DOMAIN-SUFFIX,minecraft.net
 DOMAIN-SUFFIX,minecraft.wiki
+DOMAIN-SUFFIX,minecraftforge.net
 DOMAIN-SUFFIX,minecraftservices.com
 DOMAIN-SUFFIX,minecraftshop.com
 DOMAIN-SUFFIX,mirrorsedge.com
@@ -448,12 +453,14 @@ DOMAIN-SUFFIX,modrinth.com
 DOMAIN-SUFFIX,mojang.com
 DOMAIN-SUFFIX,molesports.com
 DOMAIN-SUFFIX,msgamestudios.com
+DOMAIN-SUFFIX,muvluv-girls-garden.com
 DOMAIN-SUFFIX,mysims.com
 DOMAIN-SUFFIX,mysimsracing.com
 DOMAIN-SUFFIX,mythicentertainment.com
 DOMAIN-SUFFIX,mythicentertainment.net
 DOMAIN-SUFFIX,mythicgames.com
 DOMAIN-SUFFIX,n0vadesktop.com
+DOMAIN-SUFFIX,namemc.com
 DOMAIN-SUFFIX,needforspeed.com
 DOMAIN-SUFFIX,needforspeedboost.com
 DOMAIN-SUFFIX,needforspeeddriftkings.com
@@ -469,6 +476,7 @@ DOMAIN-SUFFIX,needforspeedtherun.com
 DOMAIN-SUFFIX,needforspeedtimeattack.com
 DOMAIN-SUFFIX,needforspeedundergroundeast.com
 DOMAIN-SUFFIX,nentindo.net
+DOMAIN-SUFFIX,neoforged.net
 DOMAIN-SUFFIX,newsupermariobrosu.com
 DOMAIN-SUFFIX,nexon.co.jp
 DOMAIN-SUFFIX,nexon.com
@@ -525,6 +533,8 @@ DOMAIN-SUFFIX,nintendoswitch.net
 DOMAIN-SUFFIX,nintendoswitchtogether.com
 DOMAIN-SUFFIX,nintendowifi.net
 DOMAIN-SUFFIX,nintendowii.com
+DOMAIN-SUFFIX,nn.com
+DOMAIN-SUFFIX,nnbooster.com
 DOMAIN-SUFFIX,noxygames.com
 DOMAIN-SUFFIX,offworldindustries.com
 DOMAIN-SUFFIX,offworldindustries.net
@@ -532,6 +542,7 @@ DOMAIN-SUFFIX,omotenashi.cygames.jp
 DOMAIN-SUFFIX,oojsq.com
 DOMAIN-SUFFIX,op.gg
 DOMAIN-SUFFIX,opgg-static.akamaized.net
+DOMAIN-SUFFIX,optifine.net
 DOMAIN-SUFFIX,origin-a.akamaihd.net
 DOMAIN-SUFFIX,origin.com
 DOMAIN-SUFFIX,origin.tv
@@ -689,6 +700,7 @@ DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 DOMAIN-SUFFIX,spearhead.kr
 DOMAIN-SUFFIX,speedhunters.com
 DOMAIN-SUFFIX,speedrun.com
+DOMAIN-SUFFIX,spigotmc.org
 DOMAIN-SUFFIX,splatoon2tournament.com
 DOMAIN-SUFFIX,spore.com
 DOMAIN-SUFFIX,spyjinx.com
@@ -813,6 +825,9 @@ DOMAIN-SUFFIX,visceralgames.com
 DOMAIN-SUFFIX,vrchat.cloud
 DOMAIN-SUFFIX,vrchat.com
 DOMAIN-SUFFIX,vrchat.net
+DOMAIN-SUFFIX,waifushangcheng.com
+DOMAIN-SUFFIX,wargaming.com
+DOMAIN-SUFFIX,wargaming.net
 DOMAIN-SUFFIX,wariolandshakeit.com
 DOMAIN-SUFFIX,wariowarediy.com
 DOMAIN-SUFFIX,warnerbrosgames.com
@@ -820,6 +835,8 @@ DOMAIN-SUFFIX,warthunder.com
 DOMAIN-SUFFIX,wbagora.com
 DOMAIN-SUFFIX,wbgames.com
 DOMAIN-SUFFIX,wbinsights.com
+DOMAIN-SUFFIX,wgcdn.co
+DOMAIN-SUFFIX,wgcrowd.io
 DOMAIN-SUFFIX,wii-u.com
 DOMAIN-SUFFIX,wiifit.com
 DOMAIN-SUFFIX,wiifitu.com
@@ -831,9 +848,15 @@ DOMAIN-SUFFIX,wiivc.net
 DOMAIN-SUFFIX,wmsjsteam.com
 DOMAIN-SUFFIX,worldflipper.akamaized.net
 DOMAIN-SUFFIX,worldflipper.jp
+DOMAIN-SUFFIX,worldoftanks.com
+DOMAIN-SUFFIX,worldoftanks.eu
 DOMAIN-SUFFIX,worldofwarcraft.com
+DOMAIN-SUFFIX,worldofwarplanes.com
+DOMAIN-SUFFIX,worldofwarships.com
+DOMAIN-SUFFIX,wotblitz.com
 DOMAIN-SUFFIX,wow.nosdn.127.net
 DOMAIN-SUFFIX,wowchina.com
+DOMAIN-SUFFIX,wowsblitz.com
 DOMAIN-SUFFIX,wtmobile.com
 DOMAIN-SUFFIX,xbox
 DOMAIN-SUFFIX,xbox.co
@@ -864,6 +887,7 @@ DOMAIN-SUFFIX,xn--mts47c3w9b1qr.cn
 DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net
 DOMAIN-SUFFIX,xunyou.com
 DOMAIN-SUFFIX,xunyou.mobi
+DOMAIN-SUFFIX,xxghh.biz
 DOMAIN-SUFFIX,yebaojiasu.com
 DOMAIN-SUFFIX,ylands.com
 DOMAIN-SUFFIX,ynoproject.net
