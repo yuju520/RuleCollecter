@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-27T22:10:50.393008+00:00",
+  "last_update": "2026-04-28T22:15:00.206332+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -12006,7 +12006,8 @@
         "DOMAIN-SUFFIX,x.ai",
         "DOMAIN-SUFFIX,youmind.ai",
         "DOMAIN-SUFFIX,youmind.com",
-        "DOMAIN-SUFFIX,youmind.site"
+        "DOMAIN-SUFFIX,youmind.site",
+        "DOMAIN-SUFFIX,zed.dev"
       ],
       "ipcidr": []
     },
