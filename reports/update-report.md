@@ -1,6 +1,6 @@
 # 🔄 规则更新报告
 
-**⏰ 更新时间：** `2026-05-06 06:15:43`  
+**⏰ 更新时间：** `2026-05-07 06:10:17`  
 **📊 运行状态：** `✅ 成功`
 
 
@@ -14,7 +14,7 @@
 | ✅ 成功获取 | `98` |
 | ❌ 失败获取 | `0` |
 | 📂 处理分类数 | `26` |
-| 🔄 变化分类数 | `1` |
+| 🔄 变化分类数 | `0` |
 
 ### 规则数量统计
 
@@ -33,7 +33,7 @@
 | AI | **+0 -0** | **+0 -0** |
 | Apple | **+0 -0** | **+0 -0** |
 | Cloud-Services | **+0 -0** | **+0 -0** |
-| China-Services | **+0 -0** | **+7 -28** |
+| China-Services | **+0 -0** | **+0 -0** |
 | Crypto | **+0 -0** | **+0 -0** |
 | Dev-Tools | **+0 -0** | **+0 -0** |
 | DIY-Custom-Direct | **+0 -0** | **+0 -0** |
@@ -104,10 +104,10 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| QuixoticHeart-AppleCN | ✅ | 171 |
-| Blackmatrix-iCloud | ✅ | 60 |
 | Blackmatrix-AppStore | ✅ | 2 |
+| QuixoticHeart-AppleCN | ✅ | 171 |
 | Blackmatrix-Apple | ✅ | 20 |
+| Blackmatrix-iCloud | ✅ | 60 |
 | Blackmatrix-AppleMusic | ✅ | 9 |
 | Blackmatrix-AppleTV | ✅ | 7 |
 
@@ -143,34 +143,34 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| AliPay | ✅ | 21 |
 | Tencent | ✅ | 20 |
-| DouYin | ✅ | 13 |
-| BiliBili | ✅ | 123 |
 | WeChat | ✅ | 330 |
+| DouYin | ✅ | 13 |
 | Alibaba | ✅ | 57 |
+| AliPay | ✅ | 21 |
+| BiliBili | ✅ | 123 |
 | ByteDance | ✅ | 370 |
 | Baidu | ✅ | 251 |
 | NetEase | ✅ | 146 |
 | XiaoHongShu | ✅ | 4 |
-| Zhihu | ✅ | 7 |
-| Pinduoduo | ✅ | 3 |
-| Weibo | ✅ | 4 |
 | XianYu | ✅ | 16 |
 | MeiTuan | ✅ | 7 |
+| Weibo | ✅ | 4 |
 | XieCheng | ✅ | 29 |
+| Zhihu | ✅ | 7 |
+| Pinduoduo | ✅ | 3 |
 | GaoDe | ✅ | 9 |
-| Keep | ✅ | 5 |
 | DouBan | ✅ | 3 |
+| Keep | ✅ | 5 |
 | NGA | ✅ | 4 |
-| 115 | ✅ | 10 |
 | Hupu | ✅ | 12 |
+| 115 | ✅ | 10 |
 | ChinaMobile | ✅ | 36 |
-| ChinaUnicom | ✅ | 34 |
-| ChinaMedia | ✅ | 405 |
 | Kingsoft | ✅ | 256 |
 | ChinaTelecom | ✅ | 83 |
+| ChinaUnicom | ✅ | 34 |
 | Direct | ✅ | 231 |
+| ChinaMedia | ✅ | 405 |
 | ASN-China | ✅ | 5076 |
 | China | ✅ | 32 |
 | ChinaIPsBGP | ✅ | 3910 |
@@ -258,17 +258,17 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-Discord | ✅ | 29 |
 | Blackmatrix-TikTok | ✅ | 31 |
 | Blackmatrix-Line | ✅ | 24 |
-| Blackmatrix-Reddit | ✅ | 8 |
+| Blackmatrix-Discord | ✅ | 29 |
 | Blackmatrix-LinkedIn | ✅ | 12 |
+| Blackmatrix-Reddit | ✅ | 8 |
 | Blackmatrix-Tumblr | ✅ | 3 |
 | Blackmatrix-Pinterest | ✅ | 23 |
-| Blackmatrix-Dropbox | ✅ | 17 |
-| Blackmatrix-Global | ✅ | 152 |
 | Blackmatrix-Notion | ✅ | 6 |
+| Blackmatrix-Dropbox | ✅ | 17 |
 | Blackmatrix-Proxy | ✅ | 123 |
+| Blackmatrix-Global | ✅ | 152 |
 
 ### 🏷️ Foreign-Streaming
 
@@ -285,19 +285,19 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-Netflix | ✅ | 1156 |
 | Blackmatrix-Disney | ✅ | 172 |
 | Blackmatrix-GlobalMedia | ✅ | 951 |
+| Blackmatrix-Netflix | ✅ | 1156 |
 | Blackmatrix-Spotify | ✅ | 29 |
+| Blackmatrix-HBO | ✅ | 47 |
 | Blackmatrix-Hulu | ✅ | 58 |
 | Blackmatrix-PrimeVideo | ✅ | 16 |
-| Blackmatrix-HBO | ✅ | 47 |
-| Blackmatrix-Twitch | ✅ | 21 |
 | Blackmatrix-KKTV | ✅ | 4 |
-| Blackmatrix-Niconico | ✅ | 9 |
+| Blackmatrix-Twitch | ✅ | 21 |
 | Blackmatrix-Bahamut | ✅ | 7 |
-| Blackmatrix-AbemaTV | ✅ | 23 |
+| Blackmatrix-Niconico | ✅ | 9 |
 | Blackmatrix-LineTV | ✅ | 8 |
+| Blackmatrix-AbemaTV | ✅ | 23 |
 
 ### 🏷️ Game
 
@@ -315,9 +315,9 @@
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
 | Blackmatrix-Game | ✅ | 597 |
+| Blackmatrix-Blizzard | ✅ | 62 |
 | Blackmatrix-Epic | ✅ | 15 |
 | QuixoticHeart-Games | ✅ | 951 |
-| Blackmatrix-Blizzard | ✅ | 62 |
 | Blackmatrix-EA | ✅ | 165 |
 | Blackmatrix-Ubisoft | ✅ | 1 |
 | Blackmatrix-Riot | ✅ | 55 |
@@ -349,8 +349,8 @@
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
 | Blackmatrix-PlayStation | ✅ | 4 |
-| Blackmatrix-Nintendo | ✅ | 126 |
 | Blackmatrix-Xbox | ✅ | 42 |
+| Blackmatrix-Nintendo | ✅ | 126 |
 
 ### 🏷️ GitHub
 
@@ -386,8 +386,8 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-GoogleDrive | ✅ | 5 |
 | Blackmatrix-Google | ✅ | 702 |
+| Blackmatrix-GoogleDrive | ✅ | 5 |
 
 ### 🏷️ Meta
 
@@ -422,8 +422,8 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-Microsoft | ✅ | 668 |
 | Blackmatrix-OneDrive | ✅ | 16 |
+| Blackmatrix-Microsoft | ✅ | 668 |
 | Blackmatrix-Teams | ✅ | 4 |
 
 ### 🏷️ Payment
