@@ -4,17 +4,17 @@
 <!-- RULES_STATS_START -->
 ## 📈 规则统计
 
-**🕒 更新时间：** `2026-05-07 06:10:17`
+**🕒 更新时间：** `2026-05-08 06:31:26`
 
 | 分类 | Meta (MRS) | Surge/Loon/Egern (List) |
 |:-----|----------:|-----------------------:|
-| AI/domain | [📥 Download](rules/meta/domain/ai.mrs) (186) | [📥 Download](rules/surge/domain/ai.list) (186) |
+| AI/domain | [📥 Download](rules/meta/domain/ai.mrs) (192) | [📥 Download](rules/surge/domain/ai.list) (192) |
 | Apple/domain | [📥 Download](rules/meta/domain/apple.mrs) (253) | [📥 Download](rules/surge/domain/apple.list) (253) |
 | Apple/ipcidr | [📥 Download](rules/meta/ipcidr/apple.mrs) (13) | [📥 Download](rules/surge/ipcidr/apple.list) (13) |
 | Cloud-Services/domain | [📥 Download](rules/meta/domain/cloud-services.mrs) (43) | [📥 Download](rules/surge/domain/cloud-services.list) (43) |
 | Cloud-Services/ipcidr | [📥 Download](rules/meta/ipcidr/cloud-services.mrs) (22) | [📥 Download](rules/surge/ipcidr/cloud-services.list) (22) |
 | China-Services/domain | [📥 Download](rules/meta/domain/cn_services.mrs) (2099) | [📥 Download](rules/surge/domain/cn_services.list) (2099) |
-| China-Services/ipcidr | [📥 Download](rules/meta/ipcidr/cn_services.mrs) (9237) | [📥 Download](rules/surge/ipcidr/cn_services.list) (9237) |
+| China-Services/ipcidr | [📥 Download](rules/meta/ipcidr/cn_services.mrs) (9235) | [📥 Download](rules/surge/ipcidr/cn_services.list) (9235) |
 | Crypto/domain | [📥 Download](rules/meta/domain/crypto.mrs) (12) | [📥 Download](rules/surge/domain/crypto.list) (12) |
 | Dev-Tools/domain | [📥 Download](rules/meta/domain/dev-tools.mrs) (7) | [📥 Download](rules/surge/domain/dev-tools.list) (7) |
 | DIY-Custom-Direct/domain | [📥 Download](rules/meta/domain/diy-direct.mrs) (8) | [📥 Download](rules/surge/domain/diy-direct.list) (8) |
@@ -23,7 +23,7 @@
 | Foreign-Services/ipcidr | [📥 Download](rules/meta/ipcidr/foreign.mrs) (119) | [📥 Download](rules/surge/ipcidr/foreign.list) (119) |
 | Foreign-Streaming/domain | [📥 Download](rules/meta/domain/foreign-streaming.mrs) (435) | [📥 Download](rules/surge/domain/foreign-streaming.list) (435) |
 | Foreign-Streaming/ipcidr | [📥 Download](rules/meta/ipcidr/foreign-streaming.mrs) (1996) | [📥 Download](rules/surge/ipcidr/foreign-streaming.list) (1996) |
-| Game/domain | [📥 Download](rules/meta/domain/game.mrs) (908) | [📥 Download](rules/surge/domain/game.list) (908) |
+| Game/domain | [📥 Download](rules/meta/domain/game.mrs) (909) | [📥 Download](rules/surge/domain/game.list) (909) |
 | Game/ipcidr | [📥 Download](rules/meta/ipcidr/game.mrs) (46) | [📥 Download](rules/surge/ipcidr/game.list) (46) |
 | Game-Console/domain | [📥 Download](rules/meta/domain/game-console.mrs) (171) | [📥 Download](rules/surge/domain/game-console.list) (171) |
 | Game-Console/ipcidr | [📥 Download](rules/meta/ipcidr/game-console.mrs) (1) | [📥 Download](rules/surge/ipcidr/game-console.list) (1) |
