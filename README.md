@@ -4,7 +4,7 @@
 <!-- RULES_STATS_START -->
 ## 📈 规则统计
 
-**🕒 更新时间：** `2026-05-11 06:07:05`
+**🕒 更新时间：** `2026-05-12 06:31:03`
 
 | 分类 | Meta (MRS) | Surge/Loon/Egern (List) |
 |:-----|----------:|-----------------------:|
@@ -14,7 +14,7 @@
 | Cloud-Services/domain | [📥 Download](rules/meta/domain/cloud-services.mrs) (43) | [📥 Download](rules/surge/domain/cloud-services.list) (43) |
 | Cloud-Services/ipcidr | [📥 Download](rules/meta/ipcidr/cloud-services.mrs) (22) | [📥 Download](rules/surge/ipcidr/cloud-services.list) (22) |
 | China-Services/domain | [📥 Download](rules/meta/domain/cn_services.mrs) (2099) | [📥 Download](rules/surge/domain/cn_services.list) (2099) |
-| China-Services/ipcidr | [📥 Download](rules/meta/ipcidr/cn_services.mrs) (9250) | [📥 Download](rules/surge/ipcidr/cn_services.list) (9250) |
+| China-Services/ipcidr | [📥 Download](rules/meta/ipcidr/cn_services.mrs) (9239) | [📥 Download](rules/surge/ipcidr/cn_services.list) (9239) |
 | Crypto/domain | [📥 Download](rules/meta/domain/crypto.mrs) (12) | [📥 Download](rules/surge/domain/crypto.list) (12) |
 | Dev-Tools/domain | [📥 Download](rules/meta/domain/dev-tools.mrs) (7) | [📥 Download](rules/surge/domain/dev-tools.list) (7) |
 | DIY-Custom-Direct/domain | [📥 Download](rules/meta/domain/diy-direct.mrs) (8) | [📥 Download](rules/surge/domain/diy-direct.list) (8) |
@@ -28,7 +28,7 @@
 | Game-Console/domain | [📥 Download](rules/meta/domain/game-console.mrs) (171) | [📥 Download](rules/surge/domain/game-console.list) (171) |
 | Game-Console/ipcidr | [📥 Download](rules/meta/ipcidr/game-console.mrs) (1) | [📥 Download](rules/surge/ipcidr/game-console.list) (1) |
 | GitHub/domain | [📥 Download](rules/meta/domain/github.mrs) (42) | [📥 Download](rules/surge/domain/github.list) (42) |
-| Google/domain | [📥 Download](rules/meta/domain/google.mrs) (700) | [📥 Download](rules/surge/domain/google.list) (700) |
+| Google/domain | [📥 Download](rules/meta/domain/google.mrs) (693) | [📥 Download](rules/surge/domain/google.list) (693) |
 | Google/ipcidr | [📥 Download](rules/meta/ipcidr/google.mrs) (5) | [📥 Download](rules/surge/ipcidr/google.list) (5) |
 | Meta/domain | [📥 Download](rules/meta/domain/meta.mrs) (547) | [📥 Download](rules/surge/domain/meta.list) (547) |
 | Meta/ipcidr | [📥 Download](rules/meta/ipcidr/meta.mrs) (24) | [📥 Download](rules/surge/ipcidr/meta.list) (24) |
