@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-12T22:37:54.075901+00:00",
+  "last_update": "2026-05-13T22:41:04.766266+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -9737,7 +9737,6 @@
         "IP-CIDR,202.127.144.0/20",
         "IP-CIDR,202.127.16.0/20",
         "IP-CIDR,202.127.200.0/21",
-        "IP-CIDR,202.127.216.0/21",
         "IP-CIDR,202.127.224.0/19",
         "IP-CIDR,202.127.40.0/21",
         "IP-CIDR,202.127.48.0/23",
@@ -10647,6 +10646,7 @@
         "IP-CIDR,222.125.0.0/16",
         "IP-CIDR,222.126.128.0/23",
         "IP-CIDR,222.126.132.0/23",
+        "IP-CIDR,222.126.134.0/24",
         "IP-CIDR,222.126.141.0/24",
         "IP-CIDR,222.126.142.0/23",
         "IP-CIDR,222.126.146.0/23",
@@ -11402,7 +11402,8 @@
         "IP-CIDR,8.148.0.0/19",
         "IP-CIDR,8.148.128.0/17",
         "IP-CIDR,8.148.36.0/22",
-        "IP-CIDR,8.148.40.0/22",
+        "IP-CIDR,8.148.41.0/24",
+        "IP-CIDR,8.148.43.0/24",
         "IP-CIDR,8.148.64.0/18",
         "IP-CIDR,8.149.0.0/16",
         "IP-CIDR,8.150.0.0/20",
@@ -17004,6 +17005,7 @@
         "DOMAIN-KEYWORD,steamstore",
         "DOMAIN-KEYWORD,steamuserimages",
         "DOMAIN-SUFFIX,3dmjiasu.com",
+        "DOMAIN-SUFFIX,99jiasu.net",
         "DOMAIN-SUFFIX,akspeedy.com",
         "DOMAIN-SUFFIX,benfuip.com",
         "DOMAIN-SUFFIX,biubiu001.com",
@@ -17221,6 +17223,7 @@
         "DOMAIN-SUFFIX,2kweb.online",
         "DOMAIN-SUFFIX,3dmjiasu.com",
         "DOMAIN-SUFFIX,3lateral.com",
+        "DOMAIN-SUFFIX,99jiasu.net",
         "DOMAIN-SUFFIX,ac-pocketcamp.com",
         "DOMAIN-SUFFIX,acesofthunder.net",
         "DOMAIN-SUFFIX,activematter.game",
