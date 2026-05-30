@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-29T22:45:08.252655+00:00",
+  "last_update": "2026-05-30T22:16:29.734366+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -11885,6 +11885,7 @@
         "DOMAIN-SUFFIX,anythingllm.com",
         "DOMAIN-SUFFIX,apis.google.com",
         "DOMAIN-SUFFIX,apps.mzstatic.com",
+        "DOMAIN-SUFFIX,arena.ai",
         "DOMAIN-SUFFIX,auth0.com",
         "DOMAIN-SUFFIX,bard.google.com",
         "DOMAIN-SUFFIX,byteoversea.com",
