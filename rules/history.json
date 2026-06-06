@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-05T22:37:34.403938+00:00",
+  "last_update": "2026-06-06T22:32:46.800354+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -11906,6 +11906,7 @@
         "DOMAIN-SUFFIX,claude.ai",
         "DOMAIN-SUFFIX,claude.com",
         "DOMAIN-SUFFIX,claudemcpclient.com",
+        "DOMAIN-SUFFIX,claudemcpcontent.com",
         "DOMAIN-SUFFIX,claudeusercontent.com",
         "DOMAIN-SUFFIX,clawhub.ai",
         "DOMAIN-SUFFIX,client-api.arkoselabs.com",
