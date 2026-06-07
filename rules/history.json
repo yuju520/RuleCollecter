@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-06T22:32:46.800354+00:00",
+  "last_update": "2026-06-07T22:32:01.756126+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -11992,6 +11992,7 @@
         "DOMAIN-SUFFIX,notebooklm.google",
         "DOMAIN-SUFFIX,notebooklm.google.com",
         "DOMAIN-SUFFIX,oaistatic.com",
+        "DOMAIN-SUFFIX,oaistatsig.com",
         "DOMAIN-SUFFIX,oaiusercontent.com",
         "DOMAIN-SUFFIX,ollama.com",
         "DOMAIN-SUFFIX,opal.google",
@@ -12011,7 +12012,9 @@
         "DOMAIN-SUFFIX,poecdn.net",
         "DOMAIN-SUFFIX,pplx.ai",
         "DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com",
+        "DOMAIN-SUFFIX,qoder.com",
         "DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com",
+        "DOMAIN-SUFFIX,sider.ai",
         "DOMAIN-SUFFIX,smoot.apple.com",
         "DOMAIN-SUFFIX,sora.com",
         "DOMAIN-SUFFIX,spicywriter.com",
@@ -17167,6 +17170,7 @@
         "DOMAIN,gog-cdn-lumen.secure2.footprint.net",
         "DOMAIN,gog-cdn.akamaized.net",
         "DOMAIN,gog.salesmanago.com",
+        "DOMAIN,hb.imgix.net",
         "DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net",
         "DOMAIN,lazer.ppy.sh",
         "DOMAIN,login.live.com",
