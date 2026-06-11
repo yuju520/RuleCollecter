@@ -262,8 +262,6 @@ DOMAIN-SUFFIX,electronicarts.com
 DOMAIN-SUFFIX,electronicarts.fr
 DOMAIN-SUFFIX,embark-studios.com
 DOMAIN-SUFFIX,embark.games
-DOMAIN-SUFFIX,eneba.com
-DOMAIN-SUFFIX,eneba.games
 DOMAIN-SUFFIX,enlisted.net
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,epicgames.dev
@@ -279,6 +277,7 @@ DOMAIN-SUFFIX,faceit-cdn.net
 DOMAIN-SUFFIX,faceit.com
 DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,fhyx.com
+DOMAIN-SUFFIX,ficgs.com
 DOMAIN-SUFFIX,fifastreet.com
 DOMAIN-SUFFIX,fifastreet3.com
 DOMAIN-SUFFIX,fire-emblem-heroes.com
@@ -306,6 +305,8 @@ DOMAIN-SUFFIX,game.maj-soul.com
 DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
 DOMAIN-SUFFIX,gamepass.com
 DOMAIN-SUFFIX,gamesfirsthelsinki.com
+DOMAIN-SUFFIX,gamesplanet.com
+DOMAIN-SUFFIX,gametap.com
 DOMAIN-SUFFIX,gangwan.com
 DOMAIN-SUFFIX,garena.co.id
 DOMAIN-SUFFIX,garena.co.th
@@ -338,6 +339,7 @@ DOMAIN-SUFFIX,golink.com
 DOMAIN-SUFFIX,golinkapi.com
 DOMAIN-SUFFIX,golinkcn.com
 DOMAIN-SUFFIX,gooblox.com
+DOMAIN-SUFFIX,gpstatic.com
 DOMAIN-SUFFIX,gstore.val.manlaxy.com
 DOMAIN-SUFFIX,guaiku.com
 DOMAIN-SUFFIX,hackyourconsole.com
@@ -500,7 +502,9 @@ DOMAIN-SUFFIX,newsupermariobrosu.com
 DOMAIN-SUFFIX,nexon.co.jp
 DOMAIN-SUFFIX,nexon.com
 DOMAIN-SUFFIX,nexon.io
+DOMAIN-SUFFIX,nexon.net
 DOMAIN-SUFFIX,nexoncdn.co.kr
+DOMAIN-SUFFIX,nexongames.co.kr
 DOMAIN-SUFFIX,nexus-cdn.com
 DOMAIN-SUFFIX,nexusmods.com
 DOMAIN-SUFFIX,nfsworld.com
