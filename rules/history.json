@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-14T22:36:53.177794+00:00",
+  "last_update": "2026-06-15T23:12:24.920722+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -20,6 +20,7 @@
         "DOMAIN-KEYWORD,docker",
         "DOMAIN-KEYWORD,haijiao",
         "DOMAIN-KEYWORD,sehuatang",
+        "DOMAIN-SUFFIX,cherryemby.top",
         "DOMAIN-SUFFIX,composerize.com",
         "DOMAIN-SUFFIX,dajiao.cyou",
         "DOMAIN-SUFFIX,fsm.name",
@@ -17912,6 +17913,7 @@
         "DOMAIN-SUFFIX,steamchina.com",
         "DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net",
         "DOMAIN-SUFFIX,steamcommunity.com",
+        "DOMAIN-SUFFIX,steamconnecttest.com",
         "DOMAIN-SUFFIX,steamcontent.com",
         "DOMAIN-SUFFIX,steamcontent.tnkjmec.com",
         "DOMAIN-SUFFIX,steamdb.info",

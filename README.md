@@ -4,7 +4,7 @@
 <!-- RULES_STATS_START -->
 ## 📈 规则统计
 
-**🕒 更新时间：** `2026-06-15 06:36:53`
+**🕒 更新时间：** `2026-06-16 07:12:24`
 
 | 分类 | Meta (MRS) | Surge/Loon/Egern (List) |
 |:-----|----------:|-----------------------:|
@@ -18,12 +18,12 @@
 | Crypto/domain | [📥 Download](rules/meta/domain/crypto.mrs) (12) | [📥 Download](rules/surge/domain/crypto.list) (12) |
 | Dev-Tools/domain | [📥 Download](rules/meta/domain/dev-tools.mrs) (7) | [📥 Download](rules/surge/domain/dev-tools.list) (7) |
 | DIY-Custom-Direct/domain | [📥 Download](rules/meta/domain/diy-direct.mrs) (8) | [📥 Download](rules/surge/domain/diy-direct.list) (8) |
-| DIY-Custom-Proxy/domain | [📥 Download](rules/meta/domain/diy-proxy.mrs) (17) | [📥 Download](rules/surge/domain/diy-proxy.list) (17) |
+| DIY-Custom-Proxy/domain | [📥 Download](rules/meta/domain/diy-proxy.mrs) (18) | [📥 Download](rules/surge/domain/diy-proxy.list) (18) |
 | Foreign-Services/domain | [📥 Download](rules/meta/domain/foreign.mrs) (171) | [📥 Download](rules/surge/domain/foreign.list) (171) |
 | Foreign-Services/ipcidr | [📥 Download](rules/meta/ipcidr/foreign.mrs) (119) | [📥 Download](rules/surge/ipcidr/foreign.list) (119) |
 | Foreign-Streaming/domain | [📥 Download](rules/meta/domain/foreign-streaming.mrs) (435) | [📥 Download](rules/surge/domain/foreign-streaming.list) (435) |
 | Foreign-Streaming/ipcidr | [📥 Download](rules/meta/ipcidr/foreign-streaming.mrs) (1996) | [📥 Download](rules/surge/ipcidr/foreign-streaming.list) (1996) |
-| Game/domain | [📥 Download](rules/meta/domain/game.mrs) (938) | [📥 Download](rules/surge/domain/game.list) (938) |
+| Game/domain | [📥 Download](rules/meta/domain/game.mrs) (939) | [📥 Download](rules/surge/domain/game.list) (939) |
 | Game/ipcidr | [📥 Download](rules/meta/ipcidr/game.mrs) (46) | [📥 Download](rules/surge/ipcidr/game.list) (46) |
 | Game-Console/domain | [📥 Download](rules/meta/domain/game-console.mrs) (171) | [📥 Download](rules/surge/domain/game-console.list) (171) |
 | Game-Console/ipcidr | [📥 Download](rules/meta/ipcidr/game-console.mrs) (1) | [📥 Download](rules/surge/ipcidr/game-console.list) (1) |
