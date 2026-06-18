@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-17T22:54:14.513542+00:00",
+  "last_update": "2026-06-18T23:12:29.270739+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -17193,6 +17193,7 @@
         "DOMAIN,steamcommunity-a.akamaihd.net.edgesuite.net",
         "DOMAIN,steamugcquincy.blob.core.windows.net",
         "DOMAIN,store-images.s-microsoft.com",
+        "DOMAIN,supercell.zendesk.com",
         "DOMAIN,tlu.dl.delivery.mp.microsoft.com",
         "DOMAIN,trts.baishancdnx.cn",
         "DOMAIN,ubisoft.siteintercept.qualtrics.com",
