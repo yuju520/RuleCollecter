@@ -4,12 +4,12 @@
 <!-- RULES_STATS_START -->
 ## 📈 规则统计
 
-**🕒 更新时间：** `2026-06-20 06:15:16`
+**🕒 更新时间：** `2026-06-21 06:37:25`
 
 | 分类 | Meta (MRS) | Surge/Loon/Egern (List) |
 |:-----|----------:|-----------------------:|
 | AI/domain | [📥 Download](rules/meta/domain/ai.mrs) (201) | [📥 Download](rules/surge/domain/ai.list) (201) |
-| Apple/domain | [📥 Download](rules/meta/domain/apple.mrs) (249) | [📥 Download](rules/surge/domain/apple.list) (249) |
+| Apple/domain | [📥 Download](rules/meta/domain/apple.mrs) (250) | [📥 Download](rules/surge/domain/apple.list) (250) |
 | Apple/ipcidr | [📥 Download](rules/meta/ipcidr/apple.mrs) (13) | [📥 Download](rules/surge/ipcidr/apple.list) (13) |
 | Cloud-Services/domain | [📥 Download](rules/meta/domain/cloud-services.mrs) (43) | [📥 Download](rules/surge/domain/cloud-services.list) (43) |
 | Cloud-Services/ipcidr | [📥 Download](rules/meta/ipcidr/cloud-services.mrs) (22) | [📥 Download](rules/surge/ipcidr/cloud-services.list) (22) |

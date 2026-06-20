@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-19T22:15:16.690969+00:00",
+  "last_update": "2026-06-20T22:37:25.068557+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -13798,6 +13798,7 @@
         "DOMAIN-SUFFIX,itunesconnect.apple.com",
         "DOMAIN-SUFFIX,iwork.apple.com",
         "DOMAIN-SUFFIX,me.com",
+        "DOMAIN-SUFFIX,mensura.cdn-apple.com",
         "DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net",
         "DOMAIN-SUFFIX,mesu-china.apple.com.akadns.net",
         "DOMAIN-SUFFIX,mesu.apple.com",
