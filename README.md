@@ -4,7 +4,7 @@
 <!-- RULES_STATS_START -->
 ## 📈 规则统计
 
-**🕒 更新时间：** `2026-06-21 06:37:25`
+**🕒 更新时间：** `2026-06-22 06:37:44`
 
 | 分类 | Meta (MRS) | Surge/Loon/Egern (List) |
 |:-----|----------:|-----------------------:|
@@ -37,7 +37,7 @@
 | Private-Network/domain | [📥 Download](rules/meta/domain/private.mrs) (122) | [📥 Download](rules/surge/domain/private.list) (122) |
 | Private-Network/ipcidr | [📥 Download](rules/meta/ipcidr/private.mrs) (18) | [📥 Download](rules/surge/ipcidr/private.list) (18) |
 | SpeedTest/domain | [📥 Download](rules/meta/domain/speedtest.mrs) (5) | [📥 Download](rules/surge/domain/speedtest.list) (5) |
-| Steam/domain | [📥 Download](rules/meta/domain/steam.mrs) (159) | [📥 Download](rules/surge/domain/steam.list) (159) |
+| Steam/domain | [📥 Download](rules/meta/domain/steam.mrs) (152) | [📥 Download](rules/surge/domain/steam.list) (152) |
 | Telegram/domain | [📥 Download](rules/meta/domain/telegram.mrs) (25) | [📥 Download](rules/surge/domain/telegram.list) (25) |
 | Telegram/ipcidr | [📥 Download](rules/meta/ipcidr/telegram.mrs) (15) | [📥 Download](rules/surge/ipcidr/telegram.list) (15) |
 | X/domain | [📥 Download](rules/meta/domain/x.mrs) (27) | [📥 Download](rules/surge/domain/x.list) (27) |
