@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-21T22:37:44.054645+00:00",
+  "last_update": "2026-06-22T22:57:22.989265+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -17024,9 +17024,11 @@
         "DOMAIN-SUFFIX,cdn-ws.content.steamchina.com",
         "DOMAIN-SUFFIX,client-update.queniuqe.com",
         "DOMAIN-SUFFIX,cm.steampowered.com",
+        "DOMAIN-SUFFIX,csgo.com.cn",
         "DOMAIN-SUFFIX,csgo.wmsj.cn",
         "DOMAIN-SUFFIX,dl.steam.clngaa.com",
         "DOMAIN-SUFFIX,dl.steam.ksyna.com",
+        "DOMAIN-SUFFIX,dota2.com.cn",
         "DOMAIN-SUFFIX,dota2.wmsj.cn",
         "DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net",
         "DOMAIN-SUFFIX,et-api.com",
@@ -17332,6 +17334,7 @@
         "DOMAIN-SUFFIX,crossout.net",
         "DOMAIN-SUFFIX,crsed.net",
         "DOMAIN-SUFFIX,crysis.jp",
+        "DOMAIN-SUFFIX,csgo.com.cn",
         "DOMAIN-SUFFIX,csgo.wmsj.cn",
         "DOMAIN-SUFFIX,cubicmotion.com",
         "DOMAIN-SUFFIX,cubicodyssey.game",
@@ -17364,6 +17367,7 @@
         "DOMAIN-SUFFIX,donkeykongcountryreturns.com",
         "DOMAIN-SUFFIX,doom.com",
         "DOMAIN-SUFFIX,dota2.com",
+        "DOMAIN-SUFFIX,dota2.com.cn",
         "DOMAIN-SUFFIX,dota2.wmsj.cn",
         "DOMAIN-SUFFIX,dragonage.com",
         "DOMAIN-SUFFIX,dragonagekeep.com",
@@ -17478,9 +17482,11 @@
         "DOMAIN-SUFFIX,gloryofheracles.com",
         "DOMAIN-SUFFIX,goblocks.com",
         "DOMAIN-SUFFIX,goblox.com",
+        "DOMAIN-SUFFIX,gog-services.com",
         "DOMAIN-SUFFIX,gog-statics.com",
         "DOMAIN-SUFFIX,gog.com",
         "DOMAIN-SUFFIX,gog.qtlglb.com",
+        "DOMAIN-SUFFIX,gogalaxy.com",
         "DOMAIN-SUFFIX,golink.com",
         "DOMAIN-SUFFIX,golinkapi.com",
         "DOMAIN-SUFFIX,golinkcn.com",
