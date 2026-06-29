@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-28T22:31:03.715049+00:00",
+  "last_update": "2026-06-29T22:33:20.334111+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -13728,6 +13728,7 @@
         "DOMAIN-SUFFIX,iadsdk.apple.com",
         "DOMAIN-SUFFIX,icloud-apple.cn",
         "DOMAIN-SUFFIX,icloud-content.com",
+        "DOMAIN-SUFFIX,icloud-content.com.cn",
         "DOMAIN-SUFFIX,icloud-isupport.com",
         "DOMAIN-SUFFIX,icloud-sandbox.com",
         "DOMAIN-SUFFIX,icloud.apple.com",
