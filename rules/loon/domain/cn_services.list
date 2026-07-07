@@ -414,7 +414,6 @@ DOMAIN-KEYWORD,wanfangdata
 DOMAIN-KEYWORD,wb_ad
 DOMAIN-KEYWORD,weather-adge.apple.com
 DOMAIN-KEYWORD,weather-edge.apple.com
-DOMAIN-KEYWORD,weibo
 DOMAIN-KEYWORD,westlawchina
 DOMAIN-SUFFIX,01058511989.com
 DOMAIN-SUFFIX,0co3geye.cn
@@ -1861,9 +1860,6 @@ DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,wechatlegal.net
 DOMAIN-SUFFIX,wechatos.net
 DOMAIN-SUFFIX,wechatpay.com
-DOMAIN-SUFFIX,weibo.cn
-DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,weibocdn.com
 DOMAIN-SUFFIX,weikan.cn
 DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,weixin.qq.com
@@ -2056,8 +2052,6 @@ DOMAIN-SUFFIX,zdsdp.com
 DOMAIN-SUFFIX,zggbdszt.cn
 DOMAIN-SUFFIX,zggbdszt.com.cn
 DOMAIN-SUFFIX,zggbdszt.net.cn
-DOMAIN-SUFFIX,zhihu.com
-DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhishifanli.cn
 DOMAIN-SUFFIX,zhishifanli.com
 DOMAIN-SUFFIX,zhishifanli.com.cn
