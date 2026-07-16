@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-15T22:17:16.049181+00:00",
+  "last_update": "2026-07-16T22:25:46.679225+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -11925,6 +11925,7 @@
         "DOMAIN-SUFFIX,comfy.org",
         "DOMAIN-SUFFIX,comfyci.org",
         "DOMAIN-SUFFIX,comfyregistry.org",
+        "DOMAIN-SUFFIX,copilot-stg.com",
         "DOMAIN-SUFFIX,copilot.cloud.microsoft",
         "DOMAIN-SUFFIX,copilot.com",
         "DOMAIN-SUFFIX,copilot.microsoft.com",
@@ -11950,6 +11951,7 @@
         "DOMAIN-SUFFIX,envatousercontent.com",
         "DOMAIN-SUFFIX,events.statsigapi.net",
         "DOMAIN-SUFFIX,featuregates.org",
+        "DOMAIN-SUFFIX,flow.google",
         "DOMAIN-SUFFIX,g.ai",
         "DOMAIN-SUFFIX,gateway.ai.cloudflare.com",
         "DOMAIN-SUFFIX,gateway.icloud.com",
