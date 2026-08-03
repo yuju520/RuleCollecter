@@ -1,6 +1,6 @@
 # 🔄 规则更新报告
 
-**⏰ 更新时间：** `2026-08-03 06:13:34`  
+**⏰ 更新时间：** `2026-08-04 06:29:17`  
 **📊 运行状态：** `✅ 成功`
 
 
@@ -14,7 +14,7 @@
 | ✅ 成功获取 | `98` |
 | ❌ 失败获取 | `0` |
 | 📂 处理分类数 | `26` |
-| 🔄 变化分类数 | `1` |
+| 🔄 变化分类数 | `0` |
 
 ### 规则数量统计
 
@@ -30,7 +30,7 @@
 | 分类 | 🌐 域名规则 | 🔢 IP规则 |
 |:-----|-----------:|----------:|
 | Adult | **+0 -0** | **+0 -0** |
-| AI | **+1 -0** | **+0 -0** |
+| AI | **+0 -0** | **+0 -0** |
 | Apple | **+0 -0** | **+0 -0** |
 | Cloud-Services | **+0 -0** | **+0 -0** |
 | China-Services | **+0 -0** | **+0 -0** |
@@ -104,11 +104,11 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
+| Blackmatrix-AppStore | ✅ | 2 |
+| Blackmatrix-iCloud | ✅ | 61 |
 | Blackmatrix-Apple | ✅ | 20 |
 | QuixoticHeart-AppleCN | ✅ | 168 |
 | Blackmatrix-AppleMusic | ✅ | 9 |
-| Blackmatrix-iCloud | ✅ | 61 |
-| Blackmatrix-AppStore | ✅ | 2 |
 | Blackmatrix-AppleTV | ✅ | 7 |
 
 ### 🏷️ Cloud-Services
@@ -143,36 +143,36 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
+| Alibaba | ✅ | 57 |
+| ByteDance | ✅ | 370 |
+| BiliBili | ✅ | 123 |
 | WeChat | ✅ | 330 |
 | Tencent | ✅ | 20 |
 | AliPay | ✅ | 21 |
-| Alibaba | ✅ | 57 |
-| ByteDance | ✅ | 370 |
 | DouYin | ✅ | 13 |
-| BiliBili | ✅ | 123 |
 | Baidu | ✅ | 251 |
 | XiaoHongShu | ✅ | 4 |
-| MeiTuan | ✅ | 7 |
 | NetEase | ✅ | 146 |
-| Zhihu | ✅ | 7 |
+| Pinduoduo | ✅ | 3 |
 | Weibo | ✅ | 4 |
 | XianYu | ✅ | 16 |
-| Pinduoduo | ✅ | 3 |
+| MeiTuan | ✅ | 7 |
+| Zhihu | ✅ | 7 |
 | XieCheng | ✅ | 29 |
-| Keep | ✅ | 5 |
-| GaoDe | ✅ | 9 |
-| DouBan | ✅ | 3 |
-| 115 | ✅ | 10 |
 | NGA | ✅ | 4 |
+| DouBan | ✅ | 3 |
+| Keep | ✅ | 5 |
+| 115 | ✅ | 10 |
 | Hupu | ✅ | 12 |
+| GaoDe | ✅ | 9 |
 | Kingsoft | ✅ | 256 |
 | ChinaMobile | ✅ | 36 |
-| ChinaTelecom | ✅ | 83 |
 | ChinaUnicom | ✅ | 34 |
-| ChinaMedia | ✅ | 405 |
+| ChinaTelecom | ✅ | 83 |
+| ASN-China | ✅ | 5076 |
 | Direct | ✅ | 231 |
 | China | ✅ | 32 |
-| ASN-China | ✅ | 5076 |
+| ChinaMedia | ✅ | 405 |
 | ChinaIPsBGP | ✅ | 3916 |
 
 ### 🏷️ Crypto
@@ -258,16 +258,16 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-Line | ✅ | 24 |
+| Blackmatrix-Discord | ✅ | 29 |
 | Blackmatrix-Reddit | ✅ | 8 |
+| Blackmatrix-Line | ✅ | 24 |
+| Blackmatrix-TikTok | ✅ | 31 |
 | Blackmatrix-LinkedIn | ✅ | 12 |
 | Blackmatrix-Pinterest | ✅ | 23 |
-| Blackmatrix-Tumblr | ✅ | 3 |
-| Blackmatrix-Discord | ✅ | 29 |
-| Blackmatrix-TikTok | ✅ | 31 |
-| Blackmatrix-Notion | ✅ | 6 |
-| Blackmatrix-Global | ✅ | 152 |
 | Blackmatrix-Dropbox | ✅ | 17 |
+| Blackmatrix-Notion | ✅ | 6 |
+| Blackmatrix-Tumblr | ✅ | 3 |
+| Blackmatrix-Global | ✅ | 152 |
 | Blackmatrix-Proxy | ✅ | 123 |
 
 ### 🏷️ Foreign-Streaming
@@ -285,16 +285,16 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
+| Blackmatrix-Netflix | ✅ | 1156 |
 | Blackmatrix-Disney | ✅ | 172 |
+| Blackmatrix-Spotify | ✅ | 29 |
 | Blackmatrix-GlobalMedia | ✅ | 951 |
 | Blackmatrix-HBO | ✅ | 47 |
+| Blackmatrix-Twitch | ✅ | 21 |
 | Blackmatrix-PrimeVideo | ✅ | 16 |
 | Blackmatrix-Hulu | ✅ | 58 |
-| Blackmatrix-Twitch | ✅ | 21 |
 | Blackmatrix-Bahamut | ✅ | 7 |
-| Blackmatrix-Netflix | ✅ | 1156 |
 | Blackmatrix-Niconico | ✅ | 9 |
-| Blackmatrix-Spotify | ✅ | 29 |
 | Blackmatrix-AbemaTV | ✅ | 23 |
 | Blackmatrix-LineTV | ✅ | 8 |
 | Blackmatrix-KKTV | ✅ | 4 |
@@ -314,13 +314,13 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-Epic | ✅ | 15 |
 | QuixoticHeart-Games | ✅ | 986 |
-| Blackmatrix-EA | ✅ | 165 |
 | Blackmatrix-Game | ✅ | 597 |
+| Blackmatrix-Epic | ✅ | 15 |
+| Blackmatrix-EA | ✅ | 165 |
 | Blackmatrix-Ubisoft | ✅ | 1 |
-| Blackmatrix-Blizzard | ✅ | 62 |
 | Blackmatrix-Riot | ✅ | 55 |
+| Blackmatrix-Blizzard | ✅ | 62 |
 
 ### 🏷️ Game-CN
 
@@ -367,9 +367,9 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
+| Blackmatrix-GitHub | ✅ | 31 |
 | Blackmatrix-Atlassian | ✅ | 5 |
 | Blackmatrix-GitLab | ✅ | 6 |
-| Blackmatrix-GitHub | ✅ | 31 |
 
 ### 🏷️ Google
 
@@ -386,8 +386,8 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-GoogleDrive | ✅ | 5 |
 | Blackmatrix-Google | ✅ | 695 |
+| Blackmatrix-GoogleDrive | ✅ | 5 |
 
 ### 🏷️ Meta
 
