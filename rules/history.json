@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-08-04T22:31:08.820334+00:00",
+  "last_update": "2026-08-05T22:30:44.507689+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -11940,6 +11940,8 @@
         "DOMAIN-SUFFIX,cursorapi.com",
         "DOMAIN-SUFFIX,deepmind.com",
         "DOMAIN-SUFFIX,deepmind.google",
+        "DOMAIN-SUFFIX,deepwiki.com",
+        "DOMAIN-SUFFIX,deepwiki.org",
         "DOMAIN-SUFFIX,devin.ai",
         "DOMAIN-SUFFIX,diabrowser.com",
         "DOMAIN-SUFFIX,diabrowser.engineering",
