@@ -1,6 +1,6 @@
 # 🔄 规则更新报告
 
-**⏰ 更新时间：** `2026-08-07 09:02:36`  
+**⏰ 更新时间：** `2026-08-08 05:59:01`  
 **📊 运行状态：** `✅ 成功`
 
 
@@ -14,7 +14,7 @@
 | ✅ 成功获取 | `98` |
 | ❌ 失败获取 | `0` |
 | 📂 处理分类数 | `26` |
-| 🔄 变化分类数 | `3` |
+| 🔄 变化分类数 | `0` |
 
 ### 规则数量统计
 
@@ -30,8 +30,8 @@
 | 分类 | 🌐 域名规则 | 🔢 IP规则 |
 |:-----|-----------:|----------:|
 | Adult | **+0 -0** | **+0 -0** |
-| AI | **+1 -0** | **+0 -0** |
-| Apple | **+1 -0** | **+0 -0** |
+| AI | **+0 -0** | **+0 -0** |
+| Apple | **+0 -0** | **+0 -0** |
 | Cloud-Services | **+0 -0** | **+0 -0** |
 | China-Services | **+0 -0** | **+0 -0** |
 | Crypto | **+0 -0** | **+0 -0** |
@@ -40,7 +40,7 @@
 | DIY-Custom-Proxy | **+0 -0** | **+0 -0** |
 | Foreign-Services | **+0 -0** | **+0 -0** |
 | Foreign-Streaming | **+0 -0** | **+0 -0** |
-| Game | **+1 -0** | **+0 -0** |
+| Game | **+0 -0** | **+0 -0** |
 | Game-CN | **+0 -0** | **+0 -0** |
 | Game-Console | **+0 -0** | **+0 -0** |
 | GitHub | **+0 -0** | **+0 -0** |
@@ -86,8 +86,8 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-Gemini | ✅ | 13 |
 | QuixoticHeart-AI | ✅ | 210 |
+| Blackmatrix-Gemini | ✅ | 13 |
 
 ### 🏷️ Apple
 
@@ -105,10 +105,10 @@
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
 | Blackmatrix-AppStore | ✅ | 2 |
-| Blackmatrix-iCloud | ✅ | 61 |
-| Blackmatrix-AppleMusic | ✅ | 9 |
-| QuixoticHeart-AppleCN | ✅ | 169 |
 | Blackmatrix-Apple | ✅ | 20 |
+| QuixoticHeart-AppleCN | ✅ | 169 |
+| Blackmatrix-AppleMusic | ✅ | 9 |
+| Blackmatrix-iCloud | ✅ | 61 |
 | Blackmatrix-AppleTV | ✅ | 7 |
 
 ### 🏷️ Cloud-Services
@@ -144,35 +144,35 @@
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
 | AliPay | ✅ | 21 |
-| DouYin | ✅ | 13 |
 | BiliBili | ✅ | 123 |
+| Alibaba | ✅ | 57 |
 | WeChat | ✅ | 330 |
 | Tencent | ✅ | 20 |
+| DouYin | ✅ | 13 |
 | ByteDance | ✅ | 370 |
-| Alibaba | ✅ | 57 |
 | Baidu | ✅ | 251 |
-| Weibo | ✅ | 4 |
-| Pinduoduo | ✅ | 3 |
 | XiaoHongShu | ✅ | 4 |
-| Zhihu | ✅ | 7 |
-| MeiTuan | ✅ | 7 |
-| XianYu | ✅ | 16 |
 | NetEase | ✅ | 146 |
+| Pinduoduo | ✅ | 3 |
+| MeiTuan | ✅ | 7 |
+| Weibo | ✅ | 4 |
+| XianYu | ✅ | 16 |
+| Zhihu | ✅ | 7 |
 | XieCheng | ✅ | 29 |
 | Keep | ✅ | 5 |
 | GaoDe | ✅ | 9 |
-| Hupu | ✅ | 12 |
 | DouBan | ✅ | 3 |
+| 115 | ✅ | 10 |
 | NGA | ✅ | 4 |
+| Hupu | ✅ | 12 |
 | Kingsoft | ✅ | 256 |
 | ChinaMobile | ✅ | 36 |
-| ASN-China | ✅ | 5076 |
-| 115 | ✅ | 10 |
 | ChinaTelecom | ✅ | 83 |
 | ChinaUnicom | ✅ | 34 |
 | ChinaMedia | ✅ | 405 |
 | Direct | ✅ | 231 |
 | China | ✅ | 32 |
+| ASN-China | ✅ | 5076 |
 | ChinaIPsBGP | ✅ | 3916 |
 
 ### 🏷️ Crypto
@@ -258,17 +258,17 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-Reddit | ✅ | 8 |
 | Blackmatrix-Discord | ✅ | 29 |
 | Blackmatrix-TikTok | ✅ | 31 |
-| Blackmatrix-Pinterest | ✅ | 23 |
-| Blackmatrix-Tumblr | ✅ | 3 |
+| Blackmatrix-Reddit | ✅ | 8 |
+| Blackmatrix-Line | ✅ | 24 |
 | Blackmatrix-LinkedIn | ✅ | 12 |
+| Blackmatrix-Tumblr | ✅ | 3 |
+| Blackmatrix-Pinterest | ✅ | 23 |
 | Blackmatrix-Dropbox | ✅ | 17 |
+| Blackmatrix-Notion | ✅ | 6 |
 | Blackmatrix-Global | ✅ | 152 |
 | Blackmatrix-Proxy | ✅ | 123 |
-| Blackmatrix-Line | ✅ | 24 |
-| Blackmatrix-Notion | ✅ | 6 |
 
 ### 🏷️ Foreign-Streaming
 
@@ -285,18 +285,18 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-Netflix | ✅ | 1156 |
 | Blackmatrix-Disney | ✅ | 172 |
 | Blackmatrix-GlobalMedia | ✅ | 951 |
 | Blackmatrix-Spotify | ✅ | 29 |
+| Blackmatrix-Netflix | ✅ | 1156 |
 | Blackmatrix-HBO | ✅ | 47 |
 | Blackmatrix-Hulu | ✅ | 58 |
 | Blackmatrix-PrimeVideo | ✅ | 16 |
-| Blackmatrix-AbemaTV | ✅ | 23 |
+| Blackmatrix-Bahamut | ✅ | 7 |
 | Blackmatrix-Twitch | ✅ | 21 |
 | Blackmatrix-Niconico | ✅ | 9 |
-| Blackmatrix-Bahamut | ✅ | 7 |
 | Blackmatrix-KKTV | ✅ | 4 |
+| Blackmatrix-AbemaTV | ✅ | 23 |
 | Blackmatrix-LineTV | ✅ | 8 |
 
 ### 🏷️ Game
@@ -315,12 +315,12 @@
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
 | Blackmatrix-Game | ✅ | 597 |
-| Blackmatrix-EA | ✅ | 165 |
 | Blackmatrix-Epic | ✅ | 15 |
-| Blackmatrix-Riot | ✅ | 55 |
-| Blackmatrix-Ubisoft | ✅ | 1 |
-| Blackmatrix-Blizzard | ✅ | 62 |
 | QuixoticHeart-Games | ✅ | 987 |
+| Blackmatrix-EA | ✅ | 165 |
+| Blackmatrix-Blizzard | ✅ | 62 |
+| Blackmatrix-Ubisoft | ✅ | 1 |
+| Blackmatrix-Riot | ✅ | 55 |
 
 ### 🏷️ Game-CN
 
@@ -349,8 +349,8 @@
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
 | Blackmatrix-PlayStation | ✅ | 4 |
-| Blackmatrix-Xbox | ✅ | 42 |
 | Blackmatrix-Nintendo | ✅ | 126 |
+| Blackmatrix-Xbox | ✅ | 42 |
 
 ### 🏷️ GitHub
 
@@ -404,8 +404,8 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-Facebook | ✅ | 570 |
 | Blackmatrix-Instagram | ✅ | 4 |
+| Blackmatrix-Facebook | ✅ | 570 |
 
 ### 🏷️ Microsoft
 
@@ -423,8 +423,8 @@
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
 | Blackmatrix-OneDrive | ✅ | 16 |
-| Blackmatrix-Microsoft | ✅ | 668 |
 | Blackmatrix-Teams | ✅ | 4 |
+| Blackmatrix-Microsoft | ✅ | 668 |
 
 ### 🏷️ Payment
 
