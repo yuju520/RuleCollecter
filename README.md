@@ -4,11 +4,11 @@
 <!-- RULES_STATS_START -->
 ## 📈 规则统计
 
-**🕒 更新时间：** `2026-08-20 05:44:43`
+**🕒 更新时间：** `2026-08-21 05:48:03`
 
 | 分类 | Meta (MRS) | Surge/Loon/Egern (List) |
 |:-----|----------:|-----------------------:|
-| AI/domain | [📥 Download](rules/meta/domain/ai.mrs) (215) | [📥 Download](rules/surge/domain/ai.list) (215) |
+| AI/domain | [📥 Download](rules/meta/domain/ai.mrs) (221) | [📥 Download](rules/surge/domain/ai.list) (221) |
 | Apple/domain | [📥 Download](rules/meta/domain/apple.mrs) (252) | [📥 Download](rules/surge/domain/apple.list) (252) |
 | Apple/ipcidr | [📥 Download](rules/meta/ipcidr/apple.mrs) (13) | [📥 Download](rules/surge/ipcidr/apple.list) (13) |
 | Cloud-Services/domain | [📥 Download](rules/meta/domain/cloud-services.mrs) (43) | [📥 Download](rules/surge/domain/cloud-services.list) (43) |
@@ -37,7 +37,7 @@
 | Private-Network/domain | [📥 Download](rules/meta/domain/private.mrs) (122) | [📥 Download](rules/surge/domain/private.list) (122) |
 | Private-Network/ipcidr | [📥 Download](rules/meta/ipcidr/private.mrs) (18) | [📥 Download](rules/surge/ipcidr/private.list) (18) |
 | SpeedTest/domain | [📥 Download](rules/meta/domain/speedtest.mrs) (5) | [📥 Download](rules/surge/domain/speedtest.list) (5) |
-| Steam/domain | [📥 Download](rules/meta/domain/steam.mrs) (154) | [📥 Download](rules/surge/domain/steam.list) (154) |
+| Steam/domain | [📥 Download](rules/meta/domain/steam.mrs) (153) | [📥 Download](rules/surge/domain/steam.list) (153) |
 | Telegram/domain | [📥 Download](rules/meta/domain/telegram.mrs) (25) | [📥 Download](rules/surge/domain/telegram.list) (25) |
 | Telegram/ipcidr | [📥 Download](rules/meta/ipcidr/telegram.mrs) (15) | [📥 Download](rules/surge/ipcidr/telegram.list) (15) |
 | X/domain | [📥 Download](rules/meta/domain/x.mrs) (27) | [📥 Download](rules/surge/domain/x.list) (27) |

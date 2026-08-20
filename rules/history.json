@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-08-19T21:44:43.960789+00:00",
+  "last_update": "2026-08-20T21:48:03.363830+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -11948,6 +11948,7 @@
         "DOMAIN-SUFFIX,diabrowser.engineering",
         "DOMAIN-SUFFIX,dify.ai",
         "DOMAIN-SUFFIX,dola.com",
+        "DOMAIN-SUFFIX,dreamgen.com",
         "DOMAIN-SUFFIX,duck.ai",
         "DOMAIN-SUFFIX,elevenlabs.com",
         "DOMAIN-SUFFIX,elevenlabs.io",
@@ -11984,6 +11985,7 @@
         "DOMAIN-SUFFIX,jetbrains.ai",
         "DOMAIN-SUFFIX,jules.google",
         "DOMAIN-SUFFIX,jules.google.com",
+        "DOMAIN-SUFFIX,kimi.ai",
         "DOMAIN-SUFFIX,kiro.dev",
         "DOMAIN-SUFFIX,labs.google",
         "DOMAIN-SUFFIX,labs.google.com",
@@ -12001,10 +12003,13 @@
         "DOMAIN-SUFFIX,midjourney.com",
         "DOMAIN-SUFFIX,minimax.io",
         "DOMAIN-SUFFIX,mistral.ai",
+        "DOMAIN-SUFFIX,moonshot.ai",
         "DOMAIN-SUFFIX,mozilla.ai",
         "DOMAIN-SUFFIX,notebook.google.com",
         "DOMAIN-SUFFIX,notebooklm.google",
         "DOMAIN-SUFFIX,notebooklm.google.com",
+        "DOMAIN-SUFFIX,notegpt.io",
+        "DOMAIN-SUFFIX,novelai.net",
         "DOMAIN-SUFFIX,oaistatic.com",
         "DOMAIN-SUFFIX,oaistatsig.com",
         "DOMAIN-SUFFIX,oaiusercontent.com",
@@ -12033,6 +12038,7 @@
         "DOMAIN-SUFFIX,sora.com",
         "DOMAIN-SUFFIX,spicywriter.com",
         "DOMAIN-SUFFIX,stitch.withgoogle.com",
+        "DOMAIN-SUFFIX,talkai.info",
         "DOMAIN-SUFFIX,tapnow.ai",
         "DOMAIN-SUFFIX,themeforest.net",
         "DOMAIN-SUFFIX,trae.ai",
@@ -17020,7 +17026,6 @@
         "DOMAIN,tlu.dl.delivery.mp.microsoft.com",
         "DOMAIN,trts.baishancdnx.cn",
         "DOMAIN,ubisoftconnect.eo-edgefunctions7.com",
-        "DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com",
         "DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn",
         "DOMAIN,wmsjsteam.com",
         "DOMAIN,xz.pphimalayanrt.com",
