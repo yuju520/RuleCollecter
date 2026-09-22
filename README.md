@@ -4,16 +4,16 @@
 <!-- RULES_STATS_START -->
 ## 📈 规则统计
 
-**🕒 更新时间：** `2026-09-21 07:18:47`
+**🕒 更新时间：** `2026-09-22 08:10:40`
 
 | 分类 | Meta (MRS) | Surge/Loon/Egern (List) |
 |:-----|----------:|-----------------------:|
-| AI/domain | [📥 Download](rules/meta/domain/ai.mrs) (221) | [📥 Download](rules/surge/domain/ai.list) (221) |
+| AI/domain | [📥 Download](rules/meta/domain/ai.mrs) (223) | [📥 Download](rules/surge/domain/ai.list) (223) |
 | Apple/domain | [📥 Download](rules/meta/domain/apple.mrs) (253) | [📥 Download](rules/surge/domain/apple.list) (253) |
 | Apple/ipcidr | [📥 Download](rules/meta/ipcidr/apple.mrs) (13) | [📥 Download](rules/surge/ipcidr/apple.list) (13) |
 | Cloud-Services/domain | [📥 Download](rules/meta/domain/cloud-services.mrs) (43) | [📥 Download](rules/surge/domain/cloud-services.list) (43) |
 | Cloud-Services/ipcidr | [📥 Download](rules/meta/ipcidr/cloud-services.mrs) (22) | [📥 Download](rules/surge/ipcidr/cloud-services.list) (22) |
-| China-Services/domain | [📥 Download](rules/meta/domain/cn_services.mrs) (2099) | [📥 Download](rules/surge/domain/cn_services.list) (2099) |
+| China-Services/domain | [📥 Download](rules/meta/domain/cn_services.mrs) (2101) | [📥 Download](rules/surge/domain/cn_services.list) (2101) |
 | China-Services/ipcidr | [📥 Download](rules/meta/ipcidr/cn_services.mrs) (9243) | [📥 Download](rules/surge/ipcidr/cn_services.list) (9243) |
 | Crypto/domain | [📥 Download](rules/meta/domain/crypto.mrs) (12) | [📥 Download](rules/surge/domain/crypto.list) (12) |
 | Dev-Tools/domain | [📥 Download](rules/meta/domain/dev-tools.mrs) (7) | [📥 Download](rules/surge/domain/dev-tools.list) (7) |
