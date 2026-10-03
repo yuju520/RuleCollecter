@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-03T00:33:08.992572+00:00",
+  "last_update": "2026-10-03T23:54:18.346654+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -975,6 +975,7 @@
         "DOMAIN-SUFFIX,bytegecko.com",
         "DOMAIN-SUFFIX,bytegoofy.com",
         "DOMAIN-SUFFIX,bytegslb.com",
+        "DOMAIN-SUFFIX,bytehwm.com",
         "DOMAIN-SUFFIX,byteimg.com",
         "DOMAIN-SUFFIX,bytelb.net",
         "DOMAIN-SUFFIX,bytelove.cn",
@@ -11919,6 +11920,7 @@
         "DOMAIN-SUFFIX,clau.de",
         "DOMAIN-SUFFIX,claude.ai",
         "DOMAIN-SUFFIX,claude.com",
+        "DOMAIN-SUFFIX,claude.dev",
         "DOMAIN-SUFFIX,claudemcpclient.com",
         "DOMAIN-SUFFIX,claudemcpcontent.com",
         "DOMAIN-SUFFIX,claudeusercontent.com",
