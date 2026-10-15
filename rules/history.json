@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-14T23:58:08.695172+00:00",
+  "last_update": "2026-10-15T23:42:56.265212+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -11589,6 +11589,9 @@
         "DOMAIN-SUFFIX,byteintlapi.com",
         "DOMAIN-SUFFIX,byteoversea.com",
         "DOMAIN-SUFFIX,capcut.com",
+        "DOMAIN-SUFFIX,capcutapi.com",
+        "DOMAIN-SUFFIX,capcutapi.us",
+        "DOMAIN-SUFFIX,capcutstatic.com",
         "DOMAIN-SUFFIX,db.tt",
         "DOMAIN-SUFFIX,dis.gd",
         "DOMAIN-SUFFIX,discord-activities.com",

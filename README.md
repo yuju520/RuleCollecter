@@ -4,7 +4,7 @@
 <!-- RULES_STATS_START -->
 ## 📈 规则统计
 
-**🕒 更新时间：** `2026-10-15 07:58:08`
+**🕒 更新时间：** `2026-10-16 07:42:56`
 
 | 分类 | Meta (MRS) | Surge/Loon/Egern (List) |
 |:-----|----------:|-----------------------:|
@@ -19,7 +19,7 @@
 | Dev-Tools/domain | [📥 Download](rules/meta/domain/dev-tools.mrs) (7) | [📥 Download](rules/surge/domain/dev-tools.list) (7) |
 | DIY-Custom-Direct/domain | [📥 Download](rules/meta/domain/diy-direct.mrs) (8) | [📥 Download](rules/surge/domain/diy-direct.list) (8) |
 | DIY-Custom-Proxy/domain | [📥 Download](rules/meta/domain/diy-proxy.mrs) (18) | [📥 Download](rules/surge/domain/diy-proxy.list) (18) |
-| Foreign-Services/domain | [📥 Download](rules/meta/domain/foreign.mrs) (171) | [📥 Download](rules/surge/domain/foreign.list) (171) |
+| Foreign-Services/domain | [📥 Download](rules/meta/domain/foreign.mrs) (174) | [📥 Download](rules/surge/domain/foreign.list) (174) |
 | Foreign-Services/ipcidr | [📥 Download](rules/meta/ipcidr/foreign.mrs) (122) | [📥 Download](rules/surge/ipcidr/foreign.list) (122) |
 | Foreign-Streaming/domain | [📥 Download](rules/meta/domain/foreign-streaming.mrs) (435) | [📥 Download](rules/surge/domain/foreign-streaming.list) (435) |
 | Foreign-Streaming/ipcidr | [📥 Download](rules/meta/ipcidr/foreign-streaming.mrs) (1996) | [📥 Download](rules/surge/ipcidr/foreign-streaming.list) (1996) |
