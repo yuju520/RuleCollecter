@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-17T23:12:26.188100+00:00",
+  "last_update": "2026-10-18T23:21:46.294077+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -11951,6 +11951,7 @@
         "DOMAIN-SUFFIX,cursor.com",
         "DOMAIN-SUFFIX,cursor.sh",
         "DOMAIN-SUFFIX,cursorapi.com",
+        "DOMAIN-SUFFIX,cursorvm.com",
         "DOMAIN-SUFFIX,deepmind.com",
         "DOMAIN-SUFFIX,deepmind.google",
         "DOMAIN-SUFFIX,deepwiki.com",
@@ -12035,6 +12036,7 @@
         "DOMAIN-SUFFIX,opal.google.com",
         "DOMAIN-SUFFIX,openai.com",
         "DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net",
+        "DOMAIN-SUFFIX,openai.org",
         "DOMAIN-SUFFIX,openaiapi-site.azureedge.net",
         "DOMAIN-SUFFIX,openart.ai",
         "DOMAIN-SUFFIX,openclaw.ai",
@@ -12062,6 +12064,7 @@
         "DOMAIN-SUFFIX,themeforest.net",
         "DOMAIN-SUFFIX,trae.ai",
         "DOMAIN-SUFFIX,tripo3d.ai",
+        "DOMAIN-SUFFIX,typesafe.ai",
         "DOMAIN-SUFFIX,windsurf.build",
         "DOMAIN-SUFFIX,windsurf.com",
         "DOMAIN-SUFFIX,x.ai",
@@ -17197,10 +17200,13 @@
         "DOMAIN,c.ppy.sh",
         "DOMAIN,client.hikarifield.co.jp",
         "DOMAIN,d1unuk07s6td74.cloudfront.net",
+        "DOMAIN,d348twzf7a8p5.cloudfront.net",
         "DOMAIN,datarouter.apps.netherrealm.com",
+        "DOMAIN,devforum-uploads.s3.dualstack.us-east-2.amazonaws.com",
         "DOMAIN,dl.delivery.mp.microsoft.com",
         "DOMAIN,dlgarenanow-a.akamaihd.net",
         "DOMAIN,download.hikarifield.co.jp",
+        "DOMAIN,doy2mn9upadnk.cloudfront.net",
         "DOMAIN,eaasserts-a.akamaihd.net",
         "DOMAIN,epicgames-download1-1251447533.file.myqcloud.com",
         "DOMAIN,epicgames-download1.akamaized.net",
