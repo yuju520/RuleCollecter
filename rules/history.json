@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-18T23:21:46.294077+00:00",
+  "last_update": "2026-10-20T00:26:32.142844+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -42,6 +42,8 @@
         "DOMAIN,asusrouter.com",
         "DOMAIN,instant.arubanetworks.com",
         "DOMAIN,local.adguard.org",
+        "DOMAIN,localhost.weixin.qq.com",
+        "DOMAIN,localhost.work.weixin.qq.com",
         "DOMAIN,oasisauth.h3c.com",
         "DOMAIN,router.asus.com",
         "DOMAIN,setmeup.arubanetworks.com",
@@ -17210,7 +17212,6 @@
         "DOMAIN,eaasserts-a.akamaihd.net",
         "DOMAIN,epicgames-download1-1251447533.file.myqcloud.com",
         "DOMAIN,epicgames-download1.akamaized.net",
-        "DOMAIN,flightsimulator.azureedge.net",
         "DOMAIN,gog-cdn-lumen.secure2.footprint.net",
         "DOMAIN,gog-cdn.akamaized.net",
         "DOMAIN,gog.salesmanago.com",
@@ -17302,7 +17303,6 @@
         "DOMAIN-SUFFIX,artstation.com",
         "DOMAIN-SUFFIX,artstationmedia.com",
         "DOMAIN-SUFFIX,artstorm.com",
-        "DOMAIN-SUFFIX,asobostudio.com",
         "DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net",
         "DOMAIN-SUFFIX,awayoutgame.com",
         "DOMAIN-SUFFIX,ayudanintendo.com",
@@ -17497,7 +17497,6 @@
         "DOMAIN-SUFFIX,fireemblemawakening.com",
         "DOMAIN-SUFFIX,firesidegatherings.com",
         "DOMAIN-SUFFIX,fitgirl-repacks.site",
-        "DOMAIN-SUFFIX,flightsimulator.com",
         "DOMAIN-SUFFIX,flipnotestudio.com",
         "DOMAIN-SUFFIX,fnjiasu.com",
         "DOMAIN-SUFFIX,forgecdn.net",
