@@ -4,7 +4,7 @@
 <!-- RULES_STATS_START -->
 ## 📈 规则统计
 
-**🕒 更新时间：** `2026-10-23 08:01:15`
+**🕒 更新时间：** `2026-10-24 07:52:54`
 
 | 分类 | Meta (MRS) | Surge/Loon/Egern (List) |
 |:-----|----------:|-----------------------:|
@@ -23,8 +23,8 @@
 | Foreign-Services/ipcidr | [📥 Download](rules/meta/ipcidr/foreign.mrs) (122) | [📥 Download](rules/surge/ipcidr/foreign.list) (122) |
 | Foreign-Streaming/domain | [📥 Download](rules/meta/domain/foreign-streaming.mrs) (435) | [📥 Download](rules/surge/domain/foreign-streaming.list) (435) |
 | Foreign-Streaming/ipcidr | [📥 Download](rules/meta/ipcidr/foreign-streaming.mrs) (1996) | [📥 Download](rules/surge/ipcidr/foreign-streaming.list) (1996) |
-| Game/domain | [📥 Download](rules/meta/domain/game.mrs) (974) | [📥 Download](rules/surge/domain/game.list) (974) |
-| Game/ipcidr | [📥 Download](rules/meta/ipcidr/game.mrs) (46) | [📥 Download](rules/surge/ipcidr/game.list) (46) |
+| Game/domain | [📥 Download](rules/meta/domain/game.mrs) (981) | [📥 Download](rules/surge/domain/game.list) (981) |
+| Game/ipcidr | [📥 Download](rules/meta/ipcidr/game.mrs) (58) | [📥 Download](rules/surge/ipcidr/game.list) (58) |
 | Game-Console/domain | [📥 Download](rules/meta/domain/game-console.mrs) (171) | [📥 Download](rules/surge/domain/game-console.list) (171) |
 | Game-Console/ipcidr | [📥 Download](rules/meta/ipcidr/game-console.mrs) (1) | [📥 Download](rules/surge/ipcidr/game-console.list) (1) |
 | GitHub/domain | [📥 Download](rules/meta/domain/github.mrs) (42) | [📥 Download](rules/surge/domain/github.list) (42) |
@@ -37,7 +37,8 @@
 | Private-Network/domain | [📥 Download](rules/meta/domain/private.mrs) (124) | [📥 Download](rules/surge/domain/private.list) (124) |
 | Private-Network/ipcidr | [📥 Download](rules/meta/ipcidr/private.mrs) (18) | [📥 Download](rules/surge/ipcidr/private.list) (18) |
 | SpeedTest/domain | [📥 Download](rules/meta/domain/speedtest.mrs) (8) | [📥 Download](rules/surge/domain/speedtest.list) (8) |
-| Steam/domain | [📥 Download](rules/meta/domain/steam.mrs) (153) | [📥 Download](rules/surge/domain/steam.list) (153) |
+| Steam/domain | [📥 Download](rules/meta/domain/steam.mrs) (156) | [📥 Download](rules/surge/domain/steam.list) (156) |
+| Steam/ipcidr | [📥 Download](rules/meta/ipcidr/steam.mrs) (12) | [📥 Download](rules/surge/ipcidr/steam.list) (12) |
 | Telegram/domain | [📥 Download](rules/meta/domain/telegram.mrs) (25) | [📥 Download](rules/surge/domain/telegram.list) (25) |
 | Telegram/ipcidr | [📥 Download](rules/meta/ipcidr/telegram.mrs) (15) | [📥 Download](rules/surge/ipcidr/telegram.list) (15) |
 | X/domain | [📥 Download](rules/meta/domain/x.mrs) (27) | [📥 Download](rules/surge/domain/x.list) (27) |

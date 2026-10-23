@@ -323,6 +323,7 @@ DOMAIN-SUFFIX,gaijin.net
 DOMAIN-SUFFIX,gaijinent.com
 DOMAIN-SUFFIX,game-repack.site
 DOMAIN-SUFFIX,game.maj-soul.com
+DOMAIN-SUFFIX,gamebanana.com
 DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
 DOMAIN-SUFFIX,gamepass.com
 DOMAIN-SUFFIX,gamesfirsthelsinki.com
@@ -659,6 +660,7 @@ DOMAIN-SUFFIX,qiyou.cn
 DOMAIN-SUFFIX,quiltmc.org
 DOMAIN-SUFFIX,quixel.com
 DOMAIN-SUFFIX,quixel.se
+DOMAIN-SUFFIX,r2modman.com
 DOMAIN-SUFFIX,radgametools.com
 DOMAIN-SUFFIX,ravensoftware.com
 DOMAIN-SUFFIX,rayark.download
@@ -803,6 +805,7 @@ DOMAIN-SUFFIX,steamdeck.com
 DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steaminventoryhelper.com
 DOMAIN-SUFFIX,steammobile.akamaized.net
+DOMAIN-SUFFIX,steamos.cloud
 DOMAIN-SUFFIX,steampipe-kr.akamaized.net
 DOMAIN-SUFFIX,steampipe-partner.akamaized.net
 DOMAIN-SUFFIX,steampipe.akamaized.net
@@ -854,6 +857,8 @@ DOMAIN-SUFFIX,thesims3.com
 DOMAIN-SUFFIX,thesims4.com
 DOMAIN-SUFFIX,thesimssocial.com
 DOMAIN-SUFFIX,thewonderful101.com
+DOMAIN-SUFFIX,thunderstore.io
+DOMAIN-SUFFIX,thunderstore.org
 DOMAIN-SUFFIX,tiberiumalliances.com
 DOMAIN-SUFFIX,tiburon.com
 DOMAIN-SUFFIX,titanfall.com
@@ -916,12 +921,14 @@ DOMAIN-SUFFIX,worldoftanks.com
 DOMAIN-SUFFIX,worldoftanks.eu
 DOMAIN-SUFFIX,worldofwarcraft.com
 DOMAIN-SUFFIX,worldofwarplanes.com
+DOMAIN-SUFFIX,worldofwarships.asia
 DOMAIN-SUFFIX,worldofwarships.com
 DOMAIN-SUFFIX,worldseriesofwarzone.com
 DOMAIN-SUFFIX,wotblitz.com
 DOMAIN-SUFFIX,wow.nosdn.127.net
 DOMAIN-SUFFIX,wowchina.com
 DOMAIN-SUFFIX,wowsblitz.com
+DOMAIN-SUFFIX,wplace.live
 DOMAIN-SUFFIX,wtmobile.com
 DOMAIN-SUFFIX,xbox
 DOMAIN-SUFFIX,xbox.co
