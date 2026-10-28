@@ -1,6 +1,6 @@
 # 🔄 规则更新报告
 
-**⏰ 更新时间：** `2026-10-27 08:34:44`  
+**⏰ 更新时间：** `2026-10-28 08:33:12`  
 **📊 运行状态：** `✅ 成功`
 
 
@@ -14,13 +14,13 @@
 | ✅ 成功获取 | `98` |
 | ❌ 失败获取 | `0` |
 | 📂 处理分类数 | `26` |
-| 🔄 变化分类数 | `0` |
+| 🔄 变化分类数 | `1` |
 
 ### 规则数量统计
 
 | 规则类型 | 原始总数 | 去重后数量 |
 |:---------|--------:|----------:|
-| 🌐 域名规则 | `8222` | `7185` |
+| 🌐 域名规则 | `8225` | `7188` |
 | 🔢 IP规则 | `11833` | `11538` |
 
 ---
@@ -30,7 +30,7 @@
 | 分类 | 🌐 域名规则 | 🔢 IP规则 |
 |:-----|-----------:|----------:|
 | Adult | **+0 -0** | **+0 -0** |
-| AI | **+0 -0** | **+0 -0** |
+| AI | **+3 -0** | **+0 -0** |
 | Apple | **+0 -0** | **+0 -0** |
 | Cloud-Services | **+0 -0** | **+0 -0** |
 | China-Services | **+0 -0** | **+0 -0** |
@@ -77,16 +77,16 @@
 
 | 平台 | 格式 | 🌐 域名规则 (点击下载) | 🔢 IP规则 (点击下载) |
 |:-----|:-----|:----- |:----- |
-| **Meta** | `.mrs` | [📥 `ai.mrs`](rules/meta/domain/ai.mrs) (246) | - (0) |
-| **Surge** | `.list` | [📥 `ai.list`](rules/surge/domain/ai.list) (246) | - (0) |
-| **Loon** | `.list` | [📥 `ai.list`](rules/loon/domain/ai.list) (246) | - (0) |
-| **Egern** | `.list` | [📥 `ai.list`](rules/egern/domain/ai.list) (246) | - (0) |
+| **Meta** | `.mrs` | [📥 `ai.mrs`](rules/meta/domain/ai.mrs) (249) | - (0) |
+| **Surge** | `.list` | [📥 `ai.list`](rules/surge/domain/ai.list) (249) | - (0) |
+| **Loon** | `.list` | [📥 `ai.list`](rules/loon/domain/ai.list) (249) | - (0) |
+| **Egern** | `.list` | [📥 `ai.list`](rules/egern/domain/ai.list) (249) | - (0) |
 
 **📥 规则源状态：**
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| QuixoticHeart-AI | ✅ | 241 |
+| QuixoticHeart-AI | ✅ | 244 |
 | Blackmatrix-Gemini | ✅ | 13 |
 
 ### 🏷️ Apple
@@ -106,10 +106,10 @@
 |:-------|:-----|----------:|
 | QuixoticHeart-AppleCN | ✅ | 170 |
 | Blackmatrix-AppStore | ✅ | 2 |
-| Blackmatrix-iCloud | ✅ | 61 |
-| Blackmatrix-AppleTV | ✅ | 7 |
 | Blackmatrix-Apple | ✅ | 20 |
+| Blackmatrix-iCloud | ✅ | 61 |
 | Blackmatrix-AppleMusic | ✅ | 9 |
+| Blackmatrix-AppleTV | ✅ | 7 |
 
 ### 🏷️ Cloud-Services
 
@@ -143,37 +143,37 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| WeChat | ✅ | 330 |
-| Tencent | ✅ | 20 |
-| DouYin | ✅ | 13 |
 | BiliBili | ✅ | 123 |
 | AliPay | ✅ | 21 |
+| WeChat | ✅ | 330 |
 | ByteDance | ✅ | 371 |
 | Alibaba | ✅ | 57 |
 | Baidu | ✅ | 251 |
+| Weibo | ✅ | 4 |
+| Pinduoduo | ✅ | 3 |
+| Tencent | ✅ | 20 |
+| DouYin | ✅ | 13 |
 | NetEase | ✅ | 146 |
 | XiaoHongShu | ✅ | 4 |
-| Zhihu | ✅ | 7 |
+| GaoDe | ✅ | 9 |
+| XieCheng | ✅ | 29 |
 | MeiTuan | ✅ | 7 |
 | XianYu | ✅ | 16 |
-| Pinduoduo | ✅ | 3 |
-| Weibo | ✅ | 4 |
-| 115 | ✅ | 10 |
 | Keep | ✅ | 5 |
-| XieCheng | ✅ | 29 |
-| GaoDe | ✅ | 9 |
-| DouBan | ✅ | 3 |
+| 115 | ✅ | 10 |
 | Hupu | ✅ | 12 |
 | NGA | ✅ | 4 |
 | Kingsoft | ✅ | 256 |
-| ChinaMobile | ✅ | 38 |
-| ChinaUnicom | ✅ | 34 |
-| ChinaTelecom | ✅ | 83 |
-| Direct | ✅ | 231 |
-| ChinaMedia | ✅ | 405 |
+| Zhihu | ✅ | 7 |
 | China | ✅ | 32 |
-| ChinaIPsBGP | ✅ | 3916 |
+| ChinaMobile | ✅ | 38 |
+| ChinaMedia | ✅ | 405 |
 | ASN-China | ✅ | 5076 |
+| DouBan | ✅ | 3 |
+| ChinaTelecom | ✅ | 83 |
+| ChinaUnicom | ✅ | 34 |
+| Direct | ✅ | 231 |
+| ChinaIPsBGP | ✅ | 3916 |
 
 ### 🏷️ Crypto
 
@@ -258,17 +258,17 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-Reddit | ✅ | 8 |
-| Blackmatrix-Discord | ✅ | 29 |
 | Blackmatrix-TikTok | ✅ | 34 |
-| Blackmatrix-Pinterest | ✅ | 23 |
+| Blackmatrix-Discord | ✅ | 29 |
+| Blackmatrix-Reddit | ✅ | 8 |
 | Blackmatrix-Line | ✅ | 24 |
-| Blackmatrix-LinkedIn | ✅ | 12 |
 | Blackmatrix-Tumblr | ✅ | 3 |
-| Blackmatrix-Dropbox | ✅ | 17 |
-| Blackmatrix-Proxy | ✅ | 126 |
+| Blackmatrix-Pinterest | ✅ | 23 |
 | Blackmatrix-Notion | ✅ | 6 |
 | Blackmatrix-Global | ✅ | 155 |
+| Blackmatrix-Proxy | ✅ | 126 |
+| Blackmatrix-LinkedIn | ✅ | 12 |
+| Blackmatrix-Dropbox | ✅ | 17 |
 
 ### 🏷️ Foreign-Streaming
 
@@ -286,18 +286,18 @@
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
 | Blackmatrix-Disney | ✅ | 172 |
-| Blackmatrix-Netflix | ✅ | 1156 |
 | Blackmatrix-Spotify | ✅ | 29 |
-| Blackmatrix-GlobalMedia | ✅ | 951 |
 | Blackmatrix-HBO | ✅ | 47 |
 | Blackmatrix-Hulu | ✅ | 58 |
-| Blackmatrix-PrimeVideo | ✅ | 16 |
-| Blackmatrix-Niconico | ✅ | 9 |
-| Blackmatrix-Bahamut | ✅ | 7 |
 | Blackmatrix-Twitch | ✅ | 21 |
-| Blackmatrix-KKTV | ✅ | 4 |
+| Blackmatrix-Netflix | ✅ | 1156 |
+| Blackmatrix-Bahamut | ✅ | 7 |
+| Blackmatrix-GlobalMedia | ✅ | 951 |
+| Blackmatrix-PrimeVideo | ✅ | 16 |
 | Blackmatrix-AbemaTV | ✅ | 23 |
+| Blackmatrix-KKTV | ✅ | 4 |
 | Blackmatrix-LineTV | ✅ | 8 |
+| Blackmatrix-Niconico | ✅ | 9 |
 
 ### 🏷️ Game
 
@@ -315,12 +315,12 @@
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
 | Blackmatrix-Game | ✅ | 612 |
-| Blackmatrix-Epic | ✅ | 15 |
-| Blackmatrix-EA | ✅ | 165 |
-| Blackmatrix-Blizzard | ✅ | 62 |
-| Blackmatrix-Ubisoft | ✅ | 1 |
-| Blackmatrix-Riot | ✅ | 55 |
 | QuixoticHeart-Games | ✅ | 1043 |
+| Blackmatrix-Ubisoft | ✅ | 1 |
+| Blackmatrix-EA | ✅ | 165 |
+| Blackmatrix-Epic | ✅ | 15 |
+| Blackmatrix-Blizzard | ✅ | 62 |
+| Blackmatrix-Riot | ✅ | 55 |
 
 ### 🏷️ Game-CN
 
@@ -348,9 +348,9 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-PlayStation | ✅ | 4 |
 | Blackmatrix-Xbox | ✅ | 42 |
 | Blackmatrix-Nintendo | ✅ | 126 |
+| Blackmatrix-PlayStation | ✅ | 4 |
 
 ### 🏷️ GitHub
 
@@ -386,8 +386,8 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-Google | ✅ | 695 |
 | Blackmatrix-GoogleDrive | ✅ | 5 |
+| Blackmatrix-Google | ✅ | 695 |
 
 ### 🏷️ Meta
 
@@ -422,8 +422,8 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-OneDrive | ✅ | 16 |
 | Blackmatrix-Teams | ✅ | 4 |
+| Blackmatrix-OneDrive | ✅ | 16 |
 | Blackmatrix-Microsoft | ✅ | 668 |
 
 ### 🏷️ Payment
@@ -492,9 +492,9 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| QuixoticHeart-GamesCN | ✅ | 99 |
-| Blackmatrix-Steam | ✅ | 69 |
 | Blackmatrix-SteamCN | ✅ | 17 |
+| Blackmatrix-Steam | ✅ | 69 |
+| QuixoticHeart-GamesCN | ✅ | 99 |
 
 ### 🏷️ Steam-CN
 
@@ -556,7 +556,7 @@
 
 | 源名称 | 状态 | 获取规则数 |
 |:-------|:-----|----------:|
-| Blackmatrix-YouTube | ✅ | 183 |
 | Blackmatrix-YouTubeMusic | ✅ | 1 |
+| Blackmatrix-YouTube | ✅ | 183 |
 
 ---
