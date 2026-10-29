@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-28T00:33:12.608901+00:00",
+  "last_update": "2026-10-29T01:02:56.936153+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -11918,6 +11918,7 @@
         "DOMAIN-SUFFIX,apis.google.com",
         "DOMAIN-SUFFIX,apps.mzstatic.com",
         "DOMAIN-SUFFIX,arena.ai",
+        "DOMAIN-SUFFIX,artificialanalysis.ai",
         "DOMAIN-SUFFIX,auth0.com",
         "DOMAIN-SUFFIX,bard.google.com",
         "DOMAIN-SUFFIX,byteoversea.com",
@@ -11945,6 +11946,7 @@
         "DOMAIN-SUFFIX,claudeusercontent.com",
         "DOMAIN-SUFFIX,clawhub.ai",
         "DOMAIN-SUFFIX,client-api.arkoselabs.com",
+        "DOMAIN-SUFFIX,cline.bot",
         "DOMAIN-SUFFIX,clipdrop.co",
         "DOMAIN-SUFFIX,cloudcode-pa.googleapis.com",
         "DOMAIN-SUFFIX,codeium.com",
@@ -11956,6 +11958,8 @@
         "DOMAIN-SUFFIX,comfy.org",
         "DOMAIN-SUFFIX,comfyci.org",
         "DOMAIN-SUFFIX,comfyregistry.org",
+        "DOMAIN-SUFFIX,commandcode.ai",
+        "DOMAIN-SUFFIX,context7.com",
         "DOMAIN-SUFFIX,copilot-stg.com",
         "DOMAIN-SUFFIX,copilot.cloud.microsoft",
         "DOMAIN-SUFFIX,copilot.com",
@@ -12032,6 +12036,7 @@
         "DOMAIN-SUFFIX,manuscdn.com",
         "DOMAIN-SUFFIX,marscode.com",
         "DOMAIN-SUFFIX,meta.ai",
+        "DOMAIN-SUFFIX,metaaiusercontent.com",
         "DOMAIN-SUFFIX,metaaivm.com",
         "DOMAIN-SUFFIX,midjourney.com",
         "DOMAIN-SUFFIX,minimax.io",
@@ -12044,6 +12049,7 @@
         "DOMAIN-SUFFIX,notebooklm.google",
         "DOMAIN-SUFFIX,notebooklm.google.com",
         "DOMAIN-SUFFIX,notegpt.io",
+        "DOMAIN-SUFFIX,nousresearch.com",
         "DOMAIN-SUFFIX,novelai.net",
         "DOMAIN-SUFFIX,oaistatic.com",
         "DOMAIN-SUFFIX,oaistatsig.com",
