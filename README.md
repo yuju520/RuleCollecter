@@ -4,7 +4,7 @@
 <!-- RULES_STATS_START -->
 ## 📈 规则统计
 
-**🕒 更新时间：** `2026-11-05 09:30:16`
+**🕒 更新时间：** `2026-11-06 09:38:11`
 
 | 分类 | Meta (MRS) | Surge/Loon/Egern (List) |
 |:-----|----------:|-----------------------:|
@@ -23,7 +23,7 @@
 | Foreign-Services/ipcidr | [📥 Download](rules/meta/ipcidr/foreign.mrs) (122) | [📥 Download](rules/surge/ipcidr/foreign.list) (122) |
 | Foreign-Streaming/domain | [📥 Download](rules/meta/domain/foreign-streaming.mrs) (435) | [📥 Download](rules/surge/domain/foreign-streaming.list) (435) |
 | Foreign-Streaming/ipcidr | [📥 Download](rules/meta/ipcidr/foreign-streaming.mrs) (1996) | [📥 Download](rules/surge/ipcidr/foreign-streaming.list) (1996) |
-| Game/domain | [📥 Download](rules/meta/domain/game.mrs) (990) | [📥 Download](rules/surge/domain/game.list) (990) |
+| Game/domain | [📥 Download](rules/meta/domain/game.mrs) (995) | [📥 Download](rules/surge/domain/game.list) (995) |
 | Game/ipcidr | [📥 Download](rules/meta/ipcidr/game.mrs) (58) | [📥 Download](rules/surge/ipcidr/game.list) (58) |
 | Game-Console/domain | [📥 Download](rules/meta/domain/game-console.mrs) (171) | [📥 Download](rules/surge/domain/game-console.list) (171) |
 | Game-Console/ipcidr | [📥 Download](rules/meta/ipcidr/game-console.mrs) (1) | [📥 Download](rules/surge/ipcidr/game-console.list) (1) |
