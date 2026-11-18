@@ -28,6 +28,7 @@ DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 DOMAIN,geminiweb-pa.clients.google.com
 DOMAIN,geminiweb-pa.clients6.google.com
+DOMAIN,graph.facebook.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,guzzoni.apple.com
 DOMAIN,http-intake.logs.us5.datadoghq.com
@@ -258,3 +259,4 @@ DOMAIN-SUFFIX,youmind.ai
 DOMAIN-SUFFIX,youmind.com
 DOMAIN-SUFFIX,youmind.site
 DOMAIN-SUFFIX,zed.dev
+DOMAIN-WILDCARD,scontent-*.xx.fbcdn.net

@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-11-17T03:59:20.885463+00:00",
+  "last_update": "2026-11-18T02:57:33.131745+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -11870,6 +11870,7 @@
         "DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com",
         "DOMAIN,geminiweb-pa.clients.google.com",
         "DOMAIN,geminiweb-pa.clients6.google.com",
+        "DOMAIN,graph.facebook.com",
         "DOMAIN,gspe1-ssl.ls.apple.com",
         "DOMAIN,guzzoni.apple.com",
         "DOMAIN,http-intake.logs.us5.datadoghq.com",
@@ -12099,7 +12100,8 @@
         "DOMAIN-SUFFIX,youmind.ai",
         "DOMAIN-SUFFIX,youmind.com",
         "DOMAIN-SUFFIX,youmind.site",
-        "DOMAIN-SUFFIX,zed.dev"
+        "DOMAIN-SUFFIX,zed.dev",
+        "DOMAIN-WILDCARD,scontent-*.xx.fbcdn.net"
       ],
       "ipcidr": []
     },
@@ -17447,6 +17449,7 @@
         "DOMAIN-SUFFIX,curseforge.com",
         "DOMAIN-SUFFIX,cyberpunk.net",
         "DOMAIN-SUFFIX,cygames.co.jp",
+        "DOMAIN-SUFFIX,cygames.com",
         "DOMAIN-SUFFIX,cygames.jp",
         "DOMAIN-SUFFIX,daoc.net",
         "DOMAIN-SUFFIX,darkageofcamelot.com",
