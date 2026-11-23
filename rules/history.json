@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-11-22T01:25:40.212429+00:00",
+  "last_update": "2026-11-23T01:49:50.700444+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -11896,6 +11896,7 @@
         "DOMAIN,www.bing.com",
         "DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com",
         "DOMAIN-KEYWORD,anthropic",
+        "DOMAIN-KEYWORD,antigravity",
         "DOMAIN-KEYWORD,claude",
         "DOMAIN-KEYWORD,colab",
         "DOMAIN-KEYWORD,developerprofiles",
