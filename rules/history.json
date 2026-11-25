@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-11-24T05:21:31.367662+00:00",
+  "last_update": "2026-11-25T04:19:49.137861+00:00",
   "categories": {
     "diy_direct": {
       "domain": [
@@ -12006,6 +12006,7 @@
         "DOMAIN-SUFFIX,gemini.google",
         "DOMAIN-SUFFIX,gemini.google.com",
         "DOMAIN-SUFFIX,gemini.gstatic.com",
+        "DOMAIN-SUFFIX,gemma.ai",
         "DOMAIN-SUFFIX,generativeai.google",
         "DOMAIN-SUFFIX,generativelanguage.googleapis.com",
         "DOMAIN-SUFFIX,githubcopilot.com",
